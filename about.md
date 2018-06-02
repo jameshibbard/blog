@@ -4,10 +4,21 @@ title: About
 sidebar_link: true
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+Hi, I'm Jim, a web developer living in the sunny north of Germany.
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+Currently I work for SitePoint as editor of their [JavaScript channel](https://www.sitepoint.com/javascript/) and technical editor of the occasional book (such as [this one](https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition)).
+
+I also work for the local university as a network admin / web dev where I spend a fair bit of my time working on Rails apps.
+
+Here are some of the places you can find me online:
+
+- [GitHub](https://github.com/jameshibbard)
+- [StackOverflow](https://stackoverflow.com/users/1136887/jack-zelig)
+- [SitePoint Forums](https://www.sitepoint.com/community/u/Pullo)
+- [Twitter](https://twitter.com/jchibbard)
+
+## Website
+
+This site uses the awesome [Hydeout theme](https://github.com/fongandrew/hydeout) which updates the original Hyde theme for Jekyll 3.x and adds new functionality.
+
+The [blog is hosted on GitHub](https://github.com/jameshibbard/blog) and deployed to my server with love by [DeployHQ](https://www.deployhq.com/).
