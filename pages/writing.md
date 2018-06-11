@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Writing
+permalink: /writing/
 sidebar_link: true
 ---
 

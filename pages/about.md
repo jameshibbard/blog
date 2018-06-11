@@ -1,6 +1,7 @@
 ---
-layout: page
 title: About
+layout: page
+permalink: /about/
 sidebar_link: true
 ---
 
