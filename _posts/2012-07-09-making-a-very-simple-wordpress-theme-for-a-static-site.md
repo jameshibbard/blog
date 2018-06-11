@@ -6,8 +6,6 @@ permalink: /making-a-very-simple-wordpress-theme-for-a-static-site/
 
 Despite starting life as a blogging platform, WordPress can also be used as a fully functional CMS. The following steps describe how to skin WordPress for use as a CMS with a simple brochure-style website.
 
-<!--more-->
-
 I will assume that you have WordPress installed and running. If this is not the case, then you can find more than enough help in the following places:
 
 - [http://wordpress.org/about/requirements/](http://wordpress.org/about/requirements/ "What your host needs to run WordPress")
