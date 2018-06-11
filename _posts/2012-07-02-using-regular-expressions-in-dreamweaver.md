@@ -45,7 +45,7 @@ _Search_: `\b(.*)<br \/>`
 _Replace_: `<li>$1</li>`
 
 
-![Dreamweaver's search/replace dialogue](http://res.cloudinary.com/hibbard/image/upload/v1528723571/dreamweaver_search_dialogue_with_regular_expression.png "Dreamweaver's search/replace dialogue")
+![Dreamweaver's search/replace dialogue](https://res.cloudinary.com/hibbard/image/upload/v1528723571/dreamweaver_search_dialogue_with_regular_expression.png "Dreamweaver's search/replace dialogue")
 
 This regular expression will match a word boundary, followed by any number of characters (except newline), followed by a `<br />`. The any number of characters (except newline) bit is placed in brackets, and can consequently be later referenced via `$1`.
 
