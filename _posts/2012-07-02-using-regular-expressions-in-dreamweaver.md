@@ -2,7 +2,7 @@
 title: Using Regular Expressions in Dreamweaver
 layout: post
 permalink: /using-regular-expressions-in-dreamweaver/
-excerpt: This time-saving tip explains how to use Dreamweaver's search/replace functionality combined with the power of regular expressions to manipulate HTML across a large number of pages.
+excerpt: <p>This time-saving tip explains how to use Dreamweaver's search/replace functionality combined with the power of regular expressions to manipulate HTML across a large number of pages.</p>
 ---
 
 Recently, I had to change the following HTML:
