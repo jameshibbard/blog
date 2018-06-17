@@ -7,6 +7,8 @@ sidebar_link: true
 
 Hi, I'm Jim, a web developer living in the sunny north of Germany.
 
+![James Hibbard](https://hibbard.eu/jim.jpg)
+
 Currently I work for SitePoint as editor of their [JavaScript channel](https://www.sitepoint.com/javascript/) and technical editor of the occasional book (such as [this one](https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition)).
 
 I also work for the local university as a network admin / web dev where I spend a fair bit of my time working on Rails apps.
