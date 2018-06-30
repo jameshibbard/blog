@@ -3,6 +3,9 @@ title: How to Insert the Current Date into a DATETIME Field in a MySQL Database 
 layout: post
 permalink: /how-to-insert-the-current-date-into-a-datetime-field-in-a-mysql-database-using-php/
 excerpt: <p>This quick tip explains how to insert the current date into a table in a MySQL database from within a PHP script.</p>
+tags:
+  - mysql
+  - php
 ---
 
 This is a simple but effective tip that I picked up this week.

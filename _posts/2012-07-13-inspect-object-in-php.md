@@ -3,6 +3,9 @@ title: Inspect Object in PHP
 layout: post
 permalink: /inspect-object-in-php/
 excerpt_separator: <!--more-->
+tags:
+  - php
+  - ruby
 ---
 
 To display the contents of an object in Ruby is really simple.

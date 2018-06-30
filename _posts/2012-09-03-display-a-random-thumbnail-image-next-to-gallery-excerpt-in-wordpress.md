@@ -3,7 +3,11 @@ title: Display a Random Thumbnail Image next to Gallery Excerpt in WordPress
 layout: post
 permalink: /display-a-random-thumbnail-image-next-to-gallery-excerpt-in-wordpress/
 excerpt: <p>This post demonstrates how to customize the gallery preview on the front page of your WordPress blog and have it display a random image from the gallery every time the page is loaded.</p>
+tags:
+  - wordpress
+  - wordpress theme
 ---
+
 I have a WordPress site (designed using a Twenty Eleven child theme), which has a whole bunch of image galleries on it.
 
 By default, these galleries will display on the front page of the blog as follows:

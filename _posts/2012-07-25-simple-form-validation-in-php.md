@@ -3,6 +3,10 @@ title: Simple Form Validation in PHP
 layout: post
 permalink: /simple-form-validation-in-php/
 excerpt_separator: <!--more-->
+tags:
+  - forms
+  - input validation
+  - php
 ---
 
 Server-side validation of user input is something you run into once in a while and although it is not an overly complicated subject, there are a couple of gotchas to be aware of.

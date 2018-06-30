@@ -3,6 +3,9 @@ title: Using Regular Expressions in Dreamweaver
 layout: post
 permalink: /using-regular-expressions-in-dreamweaver/
 excerpt: <p>This time-saving tip explains how to use Dreamweaver's search/replace functionality combined with the power of regular expressions to manipulate HTML across a large number of pages.</p>
+tags:
+  - dreamweaver
+  - regular expressions
 ---
 
 Recently, I had to change the following HTML:
@@ -51,4 +54,4 @@ This regular expression will match a word boundary, followed by any number of ch
 
 Incidentally, a small annoyance is that Dreamweaver's search and replace function does not support using `^` and `$` to match the beginning and end of lines. If you want to match this, use `[\r\n]`
 
-There is an excellent <a href="http://www.adobe.com/devnet/dreamweaver/articles/regular_expressions_pt1.html">article on using regular expressions in Dreamweaver</a> on the Adobe site.
+There is an excellent [article on using regular expressions in Dreamweaver](http://www.adobe.com/devnet/dreamweaver/articles/regular_expressions_pt1.html "Part 1 of a two-part tutorial series on using regular expressions with Dreamweaver") on the Adobe site.

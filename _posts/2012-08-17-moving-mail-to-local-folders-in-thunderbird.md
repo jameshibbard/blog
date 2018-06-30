@@ -2,6 +2,9 @@
 title: Moving Mail to Local Folders in Thunderbird
 layout: post
 permalink: /moving-mail-to-local-folders-in-thunderbird/
+tags:
+  - email
+  - thunderbird
 ---
 
 Recently, when moving mail from the uni's mail server to Thunderbird's Local Folders, a whole bunch of messages got corrupted. As you can see from the screenshot, the corrupted messages don't have a subject, "from" is just a minus sign and the date is always the same.
