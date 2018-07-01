@@ -6,6 +6,7 @@ excerpt: <p>This time-saving tip explains how to use Dreamweaver's search/replac
 tags:
   - dreamweaver
   - regular expressions
+old-comments: using-regular-expressions-in-dreamweaver.html
 ---
 
 Recently, I had to change the following HTML:
