@@ -6,6 +6,7 @@ excerpt: <p>This quick tip explains how to insert the current date into a table 
 tags:
   - mysql
   - php
+old-comments: how-to-insert-the-current-date-into-a-datetime-field-in-a-mysql-database-using-php.html
 ---
 
 This is a simple but effective tip that I picked up this week.
