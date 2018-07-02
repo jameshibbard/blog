@@ -10,6 +10,7 @@ ol.commentlist li.comment div.comment-author{}
 ol.commentlist li.comment div.vcard{}
 ol.commentlist li.comment div.vcard cite.fn{ font-style: normal; }
 ol.commentlist li.comment div.vcard cite.fn a.url{}
+ol.commentlist li.comment img.emoji { max-width: 16px; display: inline; margin: 0; }
 ol.commentlist li.comment div.vcard img{ position:relative; float:left; margin: 0 20px 15px 0; }
 ol.commentlist li.comment div.vcard img.avatar{}
 ol.commentlist li.comment div.vcard img.avatar-32{}
@@ -39,6 +40,7 @@ ol.commentlist li.parent{ border-left:5px solid #111; }
 ol.commentlist li.thread-alt{ }
 ol.commentlist li.thread-even{}
 ol.commentlist li.thread-odd{}
+
 
 // http://css-tricks.com/snippets/wordpress/base-threaded-comments-styling/
 

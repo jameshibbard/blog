@@ -6,6 +6,7 @@ tags:
   - html5
   - javascript
   - lightbox
+old-comments: overlaying-lightbox-with-the-html5-canvas-element.html
 ---
 
 Here's how to use the HTML5 `<canvas>` element in conjunction with Lokesh Dhakar's excellent Lightbox2 script, to dynamically highlight a part of a static image, in this case individual offices on a company's floor plan.

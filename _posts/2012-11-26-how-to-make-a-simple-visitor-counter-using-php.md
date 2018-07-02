@@ -3,6 +3,7 @@ title: How to Make a Simple Visitor Counter Using PHP
 layout: post
 permalink: /how-to-make-a-simple-visitor-counter-using-php/
 excerpt_separator: <!--more-->
+old-comments: how-to-make-a-simple-visitor-counter-using-php.html
 ---
 
 Imagine you want a visitor counter on your homepage. Sure, there are plenty of [free ones out there](http://www.google.com/search?q=free+visitor+counter "A Google search for 'Free visitor counter'"), but I'm never happy about embedding random third-party code in my website, and besides wouldn't it be more fun to make your own?

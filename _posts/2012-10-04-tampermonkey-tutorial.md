@@ -2,6 +2,7 @@
 title: Tampermonkey Tutorial
 layout: post
 permalink: /tampermonkey-tutorial/
+old-comments: tampermonkey-tutorial.html
 ---
 
 In an effort to stay abreast of developments on the World Wide Web, I subscribe to the CodeProject's excellent newsletter: [The Daily Insider](http://www.codeproject.com/Feature/Insider/ "The Daily Insider. Know it All."). Now, when I open this newsletter in my browser, I'm presented with a whole bunch of links (usually 12) that I want to open. It was getting a bit bothersome to open all of these manually, so I decided to write a userscript to do it for me.
