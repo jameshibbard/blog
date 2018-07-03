@@ -1,8 +1,9 @@
 ---
 title: Simple Ajax Unit Converter
 layout: post
-permalink: /simple-Ajax-unit-converter/
+permalink: /simple-ajax-unit-converter/
 excerpt_separator: <!--more-->
+old-comments: simple-ajax-unit-converter.html
 ---
 
 I've been doing quite a bit with jQuery and Ajax as of late and have not only been impressed at the ease of implementation, but also the snappy and responsive feel that it brings to your web apps.

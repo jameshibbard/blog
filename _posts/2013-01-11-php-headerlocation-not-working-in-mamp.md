@@ -3,6 +3,7 @@ title: "PHP – header('Location: ...') not working in MAMP"
 layout: post
 permalink: /php-headerlocation-not-working-in-mamp/
 excerpt_separator: <!--more-->
+old-comments: php-headerlocation-not-working-in-mamp.html
 ---
 
 Recently, I was trying to help someone build a simple contact form in PHP.

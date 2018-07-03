@@ -3,6 +3,7 @@ title: Inline Error Messages with Rails 3
 layout: post
 permalink: /inline-error-messages-with-rails-3/
 excerpt_separator: <!--more-->
+old-comments: inline-error-messages-with-rails-3.html
 ---
 
 I was recently tasked with converting a Rails app from Rails 2.3.x to 3.2.x.

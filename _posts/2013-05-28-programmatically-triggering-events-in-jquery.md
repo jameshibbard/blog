@@ -3,6 +3,7 @@ title: Programmatically Triggering Events in jQuery
 layout: post
 permalink: /programmatically-triggering-events-in-jquery/
 excerpt_separator: <!--more-->
+old-comments: programmatically-triggering-events-in-jquery.html
 ---
 
 Recently, I made a tab-based menu system which loaded various content via Ajax whenever a user clicked on any of the tabs.
@@ -21,16 +22,18 @@ This method executes all handlers and behaviours attached to the matched element
 
 Consider this example:
 
-```js
+```html
 <a class="clickMe" href="#">Link 1</a>
 <a class="clickMe" href="#">Link 2</a>
 <a class="clickMe" href="#">Link 3</a>
 
-$(".clickMe").on("click", function(){
-  console.log("You clicked " + $(this).text());
-});
+<script>
+  $(".clickMe").on("click", function(){
+    console.log("You clicked " + $(this).text());
+  });
 
-$(".clickMe").trigger("click");
+  $(".clickMe").trigger("click");
+</script>
 ```
 
 This would output:

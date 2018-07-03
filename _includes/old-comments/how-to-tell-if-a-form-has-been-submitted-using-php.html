@@ -1,0 +1,123 @@
+    <div id="comments">
+      <div id="content-comments">
+        <h3>
+          This post currently has 4 responses
+        </h3>
+        <ol class="commentlist">
+          <li class="comment even thread-even depth-1 parent" id="comment-221">
+            <div id="div-comment-221" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/aa86879e040a80915f62df1e3ad9f880?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/aa86879e040a80915f62df1e3ad9f880?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://www.irwinassociates.eu" rel="external nofollow" class="url">Graham</a></cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/how-to-tell-if-a-form-has-been-submitted-using-php/#comment-221">May 29,
+                2013 at 2:59 pm</a>
+              </div>
+              <p>
+                Why not just check $_POST[&lsquo;submit&rsquo;] ?
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-223">
+                <div id="div-comment-223" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">hibbard.eu</cite>
+                    <span class="says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href="https://hibbard.eu/how-to-tell-if-a-form-has-been-submitted-using-php/#comment-223">May
+                    29, 2013 at 9:33 pm</a>
+                  </div>
+                  <p>
+                    Good point.
+                  </p>
+                  <p>
+                    The only thing that speaks against it is that you need to give your submit &lt;input&gt; a name or
+                    it won&rsquo;t be available using $_POST[&lsquo;submit&rsquo;]:
+                  </p>
+                  <p>
+                    <code>&lt;input type="submit" value="Submit" name="submit" /&gt;</code>
+                  </p>
+                  <p>
+                    whereas with the above method even this will work:
+                  </p>
+                  <p>
+                    <code>&lt;button&gt;Submit&lt;/submit&gt;</code>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-odd thread-alt depth-1" id="comment-766">
+            <div id="div-comment-766" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/14328833165cd86634edf917bb639d15?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/14328833165cd86634edf917bb639d15?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://www.findclicksnow.com/website-design-and-development/" rel="external nofollow" class=
+                "url">john</a></cite> <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/how-to-tell-if-a-form-has-been-submitted-using-php/#comment-766">June 23,
+                2014 at 4:31 pm</a>
+              </div>
+              <p>
+                Try this! This technique is the most recommended since it seems to be recognized as a &ldquo;great
+                practice&rdquo; by the &ldquo;Coding Academy&rdquo;
+              </p>
+              <pre>
+Add Task: //Check if the form is submitted
+if($_SERVER['REQUEST_METHOD'] == 'POST' &amp;&amp; !empty($_POST['newtaskname'])){
+</pre>
+            </div>
+          </li>
+          <li class="comment odd alt thread-even depth-1" id="comment-854">
+            <div id="div-comment-854" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/c99e415123d2eeedd16715a482be3b03?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/c99e415123d2eeedd16715a482be3b03?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://www.webtechglobal.co.uk/" rel="external nofollow" class="url">Ryan Bayne</a></cite>
+                <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/how-to-tell-if-a-form-has-been-submitted-using-php/#comment-854">July 24,
+                2014 at 12:15 am</a>
+              </div>
+              <p>
+                All true. However if your working in a CMS like WordPress you may need to be checking for submissions
+                from a specific software such as your own plugin and avoiding other submissions. That is where a hidden
+                input works just fine. There is a but&hellip;
+              </p>
+              <p>
+                I wanted to mention something that many developers totally miss.
+              </p>
+              <p>
+                Like any source, the hidden input can be edited. We should not trust simply because the input exists
+                and we should not trust the value of a hidden input. I have a solution in my #Wordpress plugins for
+                this, see CSV 2 POST the latest.
+              </p>
+              <p>
+                What is key for students to know is that all of the methods on this page suit different scenarios
+                better. There is no general right or wrong and that is often the case in development.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+      <h3>Comments are closed!</h3>
+    </div>

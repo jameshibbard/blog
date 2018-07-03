@@ -3,6 +3,7 @@ title: Simple JavaScript Debugging with Chrome's Console
 layout: post
 permalink: /simple-javascript-debugging-with-chromes-console/
 excerpt_separator: <!--more-->
+old-comments: simple-javascript-debugging-with-chromes-console.html
 ---
 
 All to often of late, I have seen people having trouble trying to debug some JavaScript or other.
