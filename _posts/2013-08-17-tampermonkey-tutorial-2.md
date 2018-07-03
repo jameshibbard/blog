@@ -3,6 +3,7 @@ title: Tampermonkey Tutorial (2)
 layout: post
 permalink: /tampermonkey-tutorial-2/
 excerpt_separator: <!--more-->
+old-comments: tampermonkey-tutorial-2.html
 ---
 
 At work, I'm currently working on a rather large form. And when I say large, I mean seriously large – I just counted, it has 136 fields.

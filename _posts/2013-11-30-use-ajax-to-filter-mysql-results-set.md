@@ -3,6 +3,7 @@ title: Use Ajax to Filter MySQL Results Set
 layout: post
 permalink: /use-ajax-to-filter-mysql-results-set/
 excerpt_separator: <!--more-->
+old-comments: use-ajax-to-filter-mysql-results-set.html
 ---
 
 I recently helped someone with a project where they had to select a bunch of records from a database, then on the client side use AJAX to filter those records according to certain criteria.

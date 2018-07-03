@@ -3,6 +3,7 @@ title: Revert to Yahoo! Mail Classic
 layout: post
 permalink: /revert-to-yahoo-mail-classic/
 excerpt_separator: <!--more-->
+old-comments: revert-to-yahoo-mail-classic.html
 ---
 
 Today I got a phone call from a relative, who was rather annoyed that Yahoo! had upgraded their mail interface.
