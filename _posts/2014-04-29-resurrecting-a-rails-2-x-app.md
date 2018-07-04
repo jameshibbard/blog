@@ -3,6 +3,7 @@ title: Resurrecting a Rails 2.x App
 layout: post
 permalink: /resurrecting-a-rails-2-x-app/
 excerpt_separator: <!--more-->
+old-comments: resurrecting-a-rails-2-x-app.html
 ---
 
 This morning I had to give a client an estimate for some work they wanted doing on a Rails 2.1.2 app.

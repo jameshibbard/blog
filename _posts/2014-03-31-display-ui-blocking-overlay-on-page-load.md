@@ -3,6 +3,7 @@ title: Display UI-blocking Overlay on Page Load
 layout: post
 permalink: /display-ui-blocking-overlay-on-page-load/
 excerpt_separator: <!--more-->
+old-comments: display-ui-blocking-overlay-on-page-load.html
 ---
 
 A client asked me to add an announcement to their website, informing visitors that their business would be shut during the holidays.
