@@ -2,6 +2,10 @@
 title: Programmatically Triggering Events in jQuery
 layout: post
 permalink: /programmatically-triggering-events-in-jquery/
+tags:
+  - events
+  - javascript
+  - jquery
 excerpt_separator: <!--more-->
 old-comments: programmatically-triggering-events-in-jquery.html
 ---

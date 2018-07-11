@@ -2,6 +2,13 @@
 title: Setting a Fallback Font in Prawn
 layout: post
 permalink: /setting-a-fallback-font-in-prawn/
+tags:
+  - pdf generation
+  - prawn
+  - rails
+  - ruby
+  - ruby gems
+  - working with files
 excerpt_separator: <!--more-->
 ---
 

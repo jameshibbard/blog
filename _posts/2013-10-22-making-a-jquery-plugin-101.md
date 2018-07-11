@@ -2,6 +2,11 @@
 title: Making a jQuery Plugin – 101
 layout: post
 permalink: /making-a-jquery-plugin-101/
+tags:
+  - dates
+  - javascript
+  - jquery
+  - jquery plugins
 excerpt_separator: <!--more-->
 ---
 

@@ -2,6 +2,11 @@
 title: How to Install rbenv on Linux Mint 17.1
 layout: post
 permalink: /how-to-install-rbenv-on-linux-mint-17-1/
+tags:
+  - linux
+  - rbenv
+  - ruby
+  - version managers
 excerpt_separator: <!--more-->
 ---
 

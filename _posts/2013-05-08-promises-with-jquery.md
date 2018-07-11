@@ -2,6 +2,10 @@
 title: Promises with jQuery
 layout: post
 permalink: /promises-with-jquery/
+tags:
+  - javascript
+  - jquery
+  - promises
 excerpt_separator: <!--more-->
 ---
 

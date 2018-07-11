@@ -2,6 +2,10 @@
 title: How to Set Up an Apache Virtual Host on Linux Mint
 layout: post
 permalink: /how-to-set-up-an-apache-virtual-host-on-linux-mint/
+tags:
+  - apache
+  - linux
+  - servers
 excerpt_separator: <!--more-->
 ---
 

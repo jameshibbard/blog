@@ -2,6 +2,11 @@
 title: Trouble Installing mysql2 Gem on Windows 8 with Ruby2
 layout: post
 permalink: /trouble-installing-mysql2-gem-on-windows-8-with-ruby-2/
+tags:
+  - mysql
+  - ruby
+  - ruby gems
+  - windows
 excerpt_separator: <!--more-->
 old-comments: trouble-installing-mysql2-gem-on-windows-8-with-ruby-2.html
 ---

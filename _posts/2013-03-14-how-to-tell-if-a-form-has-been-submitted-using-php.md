@@ -2,6 +2,9 @@
 title: How to Tell If a Form Has Been Submitted Using PHP
 layout: post
 permalink: /how-to-tell-if-a-form-has-been-submitted-using-php/
+tags:
+  - forms
+  - php
 excerpt_separator: <!--more-->
 old-comments: how-to-tell-if-a-form-has-been-submitted-using-php.html
 ---

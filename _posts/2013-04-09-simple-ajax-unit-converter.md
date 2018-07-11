@@ -2,6 +2,11 @@
 title: Simple Ajax Unit Converter
 layout: post
 permalink: /simple-ajax-unit-converter/
+tags:
+  - ajax
+  - javascript
+  - jquery
+  - php
 excerpt_separator: <!--more-->
 old-comments: simple-ajax-unit-converter.html
 ---

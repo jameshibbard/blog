@@ -2,6 +2,12 @@
 title: Nested Attributes and Updating Without a Password in Devise
 layout: post
 permalink: /nested-attributes-and-updating-without-a-password-in-devise/
+tags:
+  - authentication
+  - devise
+  - forms
+  - ruby
+  - rails
 excerpt_separator: <!--more-->
 old-comments: nested-attributes-and-updating-without-a-password-in-devise.html
 ---

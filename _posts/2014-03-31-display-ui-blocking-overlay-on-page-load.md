@@ -2,6 +2,12 @@
 title: Display UI-blocking Overlay on Page Load
 layout: post
 permalink: /display-ui-blocking-overlay-on-page-load/
+tags:
+  - javascript
+  - jquery
+  - jquery plugins
+  - lightbox
+  - local storage
 excerpt_separator: <!--more-->
 old-comments: display-ui-blocking-overlay-on-page-load.html
 ---

@@ -2,6 +2,11 @@
 title: Tampermonkey Tutorial
 layout: post
 permalink: /tampermonkey-tutorial/
+tags:
+  - javascript
+  - jquery
+  - tampermonkey
+  - userscripts
 old-comments: tampermonkey-tutorial.html
 ---
 

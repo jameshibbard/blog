@@ -2,6 +2,10 @@
 title: "PHP – header('Location: ...') not working in MAMP"
 layout: post
 permalink: /php-headerlocation-not-working-in-mamp/
+tags:
+  - mamp
+  - php
+  - servers
 excerpt_separator: <!--more-->
 old-comments: php-headerlocation-not-working-in-mamp.html
 ---

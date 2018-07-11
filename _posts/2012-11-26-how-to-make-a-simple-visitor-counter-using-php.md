@@ -2,6 +2,10 @@
 title: How to Make a Simple Visitor Counter Using PHP
 layout: post
 permalink: /how-to-make-a-simple-visitor-counter-using-php/
+tags:
+  - images
+  - php
+  - working with files
 excerpt_separator: <!--more-->
 old-comments: how-to-make-a-simple-visitor-counter-using-php.html
 ---

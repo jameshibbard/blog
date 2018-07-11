@@ -2,6 +2,11 @@
 title: FXRuby – How to Capture Close on the Main Window
 layout: post
 permalink: /fxruby-how-to-capture-close-on-the-main-window/
+tags:
+  - fxruby
+  - gui programming
+  - ruby
+  - ruby gems
 excerpt_separator: <!--more-->
 ---
 

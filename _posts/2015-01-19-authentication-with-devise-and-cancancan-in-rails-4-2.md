@@ -2,6 +2,13 @@
 title: Authentication with Devise and cancancan in Rails 4.2
 layout: post
 permalink: /authentication-with-devise-and-cancancan-in-rails-4-2/
+tags:
+  - authentication
+  - authorization
+  - cancancan
+  - devise
+  - ruby
+  - rails
 excerpt_separator: <!--more-->
 old-comments: authentication-with-devise-and-cancancan-in-rails-4-2.html
 ---

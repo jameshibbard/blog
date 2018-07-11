@@ -2,6 +2,12 @@
 title: Tampermonkey Tutorial (2)
 layout: post
 permalink: /tampermonkey-tutorial-2/
+tags:
+  - forms
+  - javascript
+  - jquery
+  - tampermonkey
+  - userscripts
 excerpt_separator: <!--more-->
 old-comments: tampermonkey-tutorial-2.html
 ---

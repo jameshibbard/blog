@@ -2,6 +2,9 @@
 title: 'Ignore "Invalid Byte Sequence in UTF-8" Error in Ruby'
 layout: post
 permalink: /ignore-invalid-byte-sequence-in-utf-8-error-in-ruby/
+tags:
+  - ruby
+  - working with files
 excerpt_separator: <!--more-->
 ---
 

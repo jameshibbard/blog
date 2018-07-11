@@ -2,6 +2,10 @@
 title: Making Lightbox Work in IE9
 layout: post
 permalink: /making-lightbox-work-in-ie9/
+tags:
+  - browser
+  - internet explorer
+  - lightbox
 ---
 
 I'm a big fan of [Lokesh Dhakar's Lightbox script](http://lokeshdhakar.com/projects/lightbox2/ "Lightbox is a simple, unobtrusive script used to overlay images on top of the current page."), which is an elegant and easy to use method of displaying images against a darkened background on a web page. I've used this script quite heavily in the past, so I was somewhat alarmed when reviewing some of my old projects, to observe that it was broken in Internet Explorer 9.

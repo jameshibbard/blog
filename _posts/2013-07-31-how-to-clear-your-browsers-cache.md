@@ -2,6 +2,12 @@
 title: How to Clear Your Browser's Cache
 layout: post
 permalink: /how-to-clear-your-browsers-cache/
+tags:
+  - browser
+  - chrome
+  - internet explorer
+  - firefox
+  - opera
 excerpt_separator: <!--more-->
 ---
 

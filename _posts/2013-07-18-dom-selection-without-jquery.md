@@ -2,6 +2,11 @@
 title: DOM Selection Without jQuery
 layout: post
 permalink: /dom-selection-without-jquery/
+tags:
+  - dom
+  - javascript
+  - jquery
+  - selectors
 excerpt_separator: <!--more-->
 ---
 

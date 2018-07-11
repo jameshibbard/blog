@@ -2,6 +2,11 @@
 title: How to Set up Rails with PostgreSQL on Linux Mint
 layout: post
 permalink: /how-to-setup-rails-with-postgresql-on-linux-mint/
+tags:
+  - linux
+  - postgres
+  - ruby
+  - rails
 excerpt_separator: <!--more-->
 old-comments: how-to-setup-rails-with-postgresql-on-linux-mint.html
 ---

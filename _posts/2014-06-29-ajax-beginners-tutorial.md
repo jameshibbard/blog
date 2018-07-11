@@ -2,6 +2,11 @@
 title: Ajax Beginner's Tutorial
 layout: post
 permalink: /ajax-beginners-tutorial/
+tags:
+  - ajax
+  - javascript
+  - jquery
+  - php
 excerpt_separator: <!--more-->
 old-comments: ajax-beginners-tutorial.html
 ---

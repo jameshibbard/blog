@@ -2,6 +2,11 @@
 title: Inline Error Messages with Rails 3
 layout: post
 permalink: /inline-error-messages-with-rails-3/
+tags:
+  - forms
+  - input validation
+  - rails
+  - ruby
 excerpt_separator: <!--more-->
 old-comments: inline-error-messages-with-rails-3.html
 ---

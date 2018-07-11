@@ -2,6 +2,11 @@
 title: Simple JavaScript Debugging with Chrome's Console
 layout: post
 permalink: /simple-javascript-debugging-with-chromes-console/
+tags:
+  - browser
+  - chrome
+  - debugging
+  - javascript
 excerpt_separator: <!--more-->
 old-comments: simple-javascript-debugging-with-chromes-console.html
 ---

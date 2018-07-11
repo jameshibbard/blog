@@ -2,6 +2,9 @@
 title: How to Run a Batch File as Admin in Windows 7
 layout: post
 permalink: /how-to-run-a-batch-file-as-admin-in-windows-7/
+tags:
+  - batch files
+  - windows
 excerpt_separator: <!--more-->
 ---
 

@@ -2,6 +2,12 @@
 title: Sliding Panels with jQuery
 layout: post
 permalink: /sliding-panels-with-jquery/
+tags:
+  - animation
+  - css
+  - images
+  - javascript
+  - jquery
 excerpt_separator: <!--more-->
 ---
 

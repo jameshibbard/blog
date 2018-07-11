@@ -5,6 +5,7 @@ permalink: /overlaying-lightbox-with-the-html5-canvas-element/
 tags:
   - html5
   - javascript
+  - jquery
   - lightbox
 old-comments: overlaying-lightbox-with-the-html5-canvas-element.html
 ---

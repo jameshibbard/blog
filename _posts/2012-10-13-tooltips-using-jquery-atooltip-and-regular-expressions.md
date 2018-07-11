@@ -2,6 +2,11 @@
 title: Tooltips Using jQuery, aToolTip and Regular Expressions
 layout: post
 permalink: /tooltips-using-jquery-atooltip-and-regular-expressions/
+tags:
+  - javascript
+  - jquery
+  - regular expressions
+  - tooltips
 ---
 
 Imagine you have a page of text and you want each occurrence of a certain word to display a tooltip whenever a visitor hovers over it with their mouse. What's the best way to go about implementing this? Well, you could edit your HTML by hand and add the appropriate tags to every single occurrence of the term. Or, you could just specify your term once and then let jQuery do the work for you.

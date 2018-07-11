@@ -2,6 +2,9 @@
 title: How to Restore a Previously Deleted File from a Git Repository
 layout: post
 permalink: /how-to-restore-a-previously-deleted-file-from-a-git-repository/
+tags:
+  - git
+  - working with files
 excerpt_separator: <!--more-->
 ---
 

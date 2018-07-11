@@ -2,6 +2,10 @@
 title: Custom Routes and RESTful Resources in Rails 3
 layout: post
 permalink: /custom-routes-with-resources-in-rails-3/
+tags:
+  - rails
+  - routing
+  - ruby
 excerpt_separator: <!--more-->
 ---
 

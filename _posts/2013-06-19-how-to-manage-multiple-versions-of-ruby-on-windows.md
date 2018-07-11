@@ -2,6 +2,11 @@
 title: How to Manage Multiple Versions of Ruby on Windows
 layout: post
 permalink: /how-to-manage-multiple-versions-of-ruby-on-windows/
+tags:
+  - ruby
+  - ruby gems
+  - version managers
+  - windows
 excerpt_separator: <!--more-->
 old-comments: how-to-manage-multiple-versions-of-ruby-on-windows.html
 ---

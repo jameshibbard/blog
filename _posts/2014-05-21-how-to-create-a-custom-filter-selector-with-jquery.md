@@ -2,6 +2,10 @@
 title: How to Create a Custom Filter Selector with jQuery
 layout: post
 permalink: /how-to-create-a-custom-filter-selector-with-jquery/
+tags:
+  - javascript
+  - jquery
+  - selectors
 excerpt_separator: <!--more-->
 ---
 

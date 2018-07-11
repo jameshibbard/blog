@@ -2,6 +2,12 @@
 title: Use Ajax to Filter MySQL Results Set
 layout: post
 permalink: /use-ajax-to-filter-mysql-results-set/
+tags:
+  - ajax
+  - javascript
+  - jquery
+  - mysql
+  - php
 excerpt_separator: <!--more-->
 old-comments: use-ajax-to-filter-mysql-results-set.html
 ---

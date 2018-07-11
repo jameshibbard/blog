@@ -2,6 +2,10 @@
 title: Revert to Yahoo! Mail Classic
 layout: post
 permalink: /revert-to-yahoo-mail-classic/
+tags:
+  - browser
+  - email
+  - internet explorer
 excerpt_separator: <!--more-->
 old-comments: revert-to-yahoo-mail-classic.html
 ---

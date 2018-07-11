@@ -2,6 +2,10 @@
 title: Using Virtual Attributes in Rails 3
 layout: post
 permalink: /using-virtual-attributes-in-rails-3/
+tags:
+  - dates
+  - rails
+  - ruby
 excerpt_separator: <!--more-->
 ---
 

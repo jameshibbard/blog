@@ -2,6 +2,10 @@
 title: Display Your WordPress Contact Form in a Lightbox
 layout: post
 permalink: /display-your-wordpress-contact-form-in-a-lightbox/
+tags:
+  - forms
+  - wordpress
+  - wordpress plugins
 old-comments: display-your-wordpress-contact-form-in-a-lightbox.html
 ---
 

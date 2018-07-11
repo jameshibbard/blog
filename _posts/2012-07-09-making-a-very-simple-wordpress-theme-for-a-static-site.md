@@ -4,7 +4,7 @@ layout: post
 permalink: /making-a-very-simple-wordpress-theme-for-a-static-site/
 tags:
   - wordpress
-  - wordpress theme
+  - wordpress themes
 old-comments: making-a-very-simple-wordpress-theme-for-a-static-site.html
 ---
 

@@ -2,6 +2,11 @@
 title: Using Cookies with jQuery to Make a Simple Style Switcher
 layout: post
 permalink: /using-cookies-with-jquery-to-make-a-simple-style-switcher/
+tags:
+  - css
+  - cookies
+  - javascript
+  - jquery
 old-comments: using-cookies-with-jquery-to-make-a-simple-style-switcher.html
 ---
 

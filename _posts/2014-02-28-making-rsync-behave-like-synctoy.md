@@ -2,6 +2,10 @@
 title: Making rsync Behave like SyncToy
 layout: post
 permalink: /making-rsync-behave-like-synctoy/
+tags:
+  - linux
+  - rsync
+  - working with files
 excerpt_separator: <!--more-->
 old-comments: making-rsync-behave-like-synctoy.html
 ---

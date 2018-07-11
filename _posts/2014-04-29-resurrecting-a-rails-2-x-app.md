@@ -2,6 +2,11 @@
 title: Resurrecting a Rails 2.x App
 layout: post
 permalink: /resurrecting-a-rails-2-x-app/
+tags:
+  - linux
+  - mysql
+  - rails
+  - ruby
 excerpt_separator: <!--more-->
 old-comments: resurrecting-a-rails-2-x-app.html
 ---

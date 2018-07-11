@@ -2,6 +2,11 @@
 title: Prevent Double Data Submission in Rails
 layout: post
 permalink: /prevent-double-data-submission-in-rails-3/
+tags:
+  - forms
+  - javascript
+  - rails
+  - ruby
 excerpt_separator: <!--more-->
 ---
 

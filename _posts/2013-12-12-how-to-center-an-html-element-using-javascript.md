@@ -1,6 +1,9 @@
 ---
 title: How to Center an HTML Element Using JavaScript
 layout: post
+tags:
+  - javascript
+  - images
 permalink: /how-to-center-an-html-element-using-javascript/
 excerpt_separator: <!--more-->
 ---

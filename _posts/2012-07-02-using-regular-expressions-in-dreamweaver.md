@@ -4,7 +4,7 @@ layout: post
 permalink: /using-regular-expressions-in-dreamweaver/
 excerpt: <p>This time-saving tip explains how to use Dreamweaver's search/replace functionality combined with the power of regular expressions to manipulate HTML across a large number of pages.</p>
 tags:
-  - dreamweaver
+  - code editors
   - regular expressions
 old-comments: using-regular-expressions-in-dreamweaver.html
 ---

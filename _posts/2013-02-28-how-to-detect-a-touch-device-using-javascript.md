@@ -2,6 +2,10 @@
 title: How to Detect a Touch Device Using JavaScript
 layout: post
 permalink: /how-to-detect-a-touch-device-using-javascript/
+tags:
+  - device detection
+  - javascript
+  - modernizr
 excerpt_separator: <!--more-->
 old-comments: how-to-detect-a-touch-device-using-javascript.html
 ---
