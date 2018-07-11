@@ -3,6 +3,7 @@ title: Authentication with Devise and cancancan in Rails 4.2
 layout: post
 permalink: /authentication-with-devise-and-cancancan-in-rails-4-2/
 excerpt_separator: <!--more-->
+old-comments: authentication-with-devise-and-cancancan-in-rails-4-2.html
 ---
 
 This is a beginner level tutorial on how to set up authentication (verifying who you are) and authorization (what you are permitted to do) using Ruby 2.2, Rails 4.2 and two popular Ruby gems: [Devise](https://github.com/plataformatec/devise "Flexible authentication solution for Rails with Warden") and [cancancan](https://github.com/CanCanCommunity/cancancan "Continuation of CanCan, the authorization Gem for Ruby on Rails").

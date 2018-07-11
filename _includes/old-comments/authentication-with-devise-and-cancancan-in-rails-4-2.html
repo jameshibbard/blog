@@ -1,0 +1,1134 @@
+    <div id="comments">
+      <div id="content-comments">
+        <h3>
+          This post currently has 37 responses
+        </h3>
+        <ol class="commentlist">
+          <li class="comment even thread-even depth-1 parent" id="comment-1025">
+            <div id="div-comment-1025" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/9c1391cc226d533575f7d104588536c3?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/9c1391cc226d533575f7d104588536c3?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">kohi</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1025">February 4,
+                2015 at 7:11 am</a>
+              </div>
+              <p>
+                I was able to confirm that it works this tutorial.<br>
+                Thank you from Japan<br>
+                <img draggable="false" class="emoji" alt="&#128578;" src=
+                "https://s.w.org/images/core/emoji/2.4/svg/1f642.svg">
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-1026">
+                <div id="div-comment-1026" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1026">February
+                    4, 2015 at 1:54 pm</a>
+                  </div>
+                  <p>
+                    Hi Kohi,
+                  </p>
+                  <p>
+                    Thanks for your comment &ndash; I am glad that you found the tutorial useful.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-odd thread-alt depth-1" id="comment-1028">
+            <div id="div-comment-1028" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/f0495d3dadffd516d37b4db4814cf829?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/f0495d3dadffd516d37b4db4814cf829?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://shawnacscott.com" rel="external nofollow" class="url">Shawna</a></cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1028">February 5,
+                2015 at 4:06 am</a>
+              </div>
+              <p>
+                Great tutorial!
+              </p>
+              <p>
+                One place where you could make this even simpler is by using enums (<a href=
+                "http://edgeapi.rubyonrails.org/classes/ActiveRecord/Enum.html">http://edgeapi.rubyonrails.org/classes/ActiveRecord/Enum.html</a>)
+                for the roles. That way, <code>admin?</code> just works out of the box. Depending on how dogmatically
+                you want to keep concerns separated, you could eliminate the whole Roles controller too, if you wanted.
+              </p>
+            </div>
+          </li>
+          <li class="comment odd alt thread-even depth-1 parent" id="comment-1030">
+            <div id="div-comment-1030" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/f0495d3dadffd516d37b4db4814cf829?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/f0495d3dadffd516d37b4db4814cf829?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://shawnacscott.com" rel="external nofollow" class="url">Shawna</a></cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1030">February 5,
+                2015 at 8:28 pm</a>
+              </div>
+              <p>
+                I&rsquo;ve found one error:
+              </p>
+              <p>
+                You say about <code>can :manage, :all</code>: &ldquo;In the above example we are permitting the admin
+                to perform any CRUD action on any resource within our app and restricting all other users to just being
+                able to read.&rdquo;
+              </p>
+              <p>
+                From CanCanCan&rsquo;s &ldquo;Defining Abilities&rdquo; wiki page:
+              </p>
+              <p>
+                &ldquo;Important notice about :manage. As you read above it represents ANY action on the object.&rdquo;
+              </p>
+              <p>
+                Thus, it&rsquo;s not true to say that <code>can :manage :all</code> represents only CRUD actions. If
+                you want to allow access to only CRUD actions, you need a custom alias like:
+              </p>
+              <p>
+                <code>alias_action :create, :read, :update, :destroy, to: :crud</code>
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1031">
+                <div id="div-comment-1031" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1031">February
+                    5, 2015 at 9:22 pm</a>
+                  </div>
+                  <p>
+                    Hi Shawna,
+                  </p>
+                  <p>
+                    I will have a look at enums &ndash; I hadn&rsquo;t thought of using them.
+                  </p>
+                  <p>
+                    Regarding your second point, I think I just worded it badly. I didn&rsquo;t mean to imply that the
+                    admin is restricted to performing CRUD actions, rather, of the available CRUD actions, he or she
+                    can perform all of them.
+                  </p>
+                  <p>
+                    I don&rsquo;t mind changing the text if you can think of a way to say that better.
+                  </p>
+                  <p>
+                    Thanks for taking the time to comment. I appreciate it!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1033">
+            <div id="div-comment-1033" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/fcff4657d7569f605976d2cab3813890?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/fcff4657d7569f605976d2cab3813890?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Cristiano Betta</cite>
+                <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1033">February 6,
+                2015 at 9:05 am</a>
+              </div>
+              <p>
+                Nice article. I found a small issue: you scaffold the User before the Role, which on my machine throws
+                an error when migrating (my default DB is PG).
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1034">
+                <div id="div-comment-1034" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1034">February
+                    6, 2015 at 11:05 am</a>
+                  </div>
+                  <p>
+                    Thank you for pointing that out.<br>
+                    Did you find a solution to the problem?
+                  </p>
+                  <p>
+                    I&rsquo;m unable to reproduce the error (using SQLite), but I would be happy to update the article
+                    if you have a workaround.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-even depth-1 parent" id="comment-1049">
+            <div id="div-comment-1049" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Jorge</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1049">February 20,
+                2015 at 12:26 pm</a>
+              </div>
+              <p>
+                I get the following error when I go through the tutorial and also when I clone the github repository.
+              </p>
+              <pre>
+undefined method `name' for nil:NilClass
+Extracted source (around line #16):
+
+def admin?
+  self.role.name == "Admin"
+end
+def seller?
+...
+</pre>
+              <p>
+                The line is: <code>self.role.name == "Admin"</code>
+              </p>
+              <p>
+                Has anybody encountered this error?
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1050">
+                <div id="div-comment-1050" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1050">February
+                    20, 2015 at 12:35 pm</a>
+                  </div>
+                  <p>
+                    Sorry to hear that you are having problems.
+                  </p>
+                  <p>
+                    I just checked everything is working. I ran:
+                  </p>
+                  <pre>
+git clone https://github.com/hibbard-eu/authentication-with-devise-and-cancancan.git
+cd authentication-with-devise-and-cancancan/
+bundle
+rake db:migrate
+rake db:seed
+rails s
+</pre>
+                  <p>
+                    And everything worked as expected.<br>
+                    I wouldn&rsquo;t have thought that there was anything Rails 4 or Ruby 2.2 specific in there, but
+                    might it be worth checking your versions?
+                  </p>
+                  <p>
+                    Otherwise, if there&rsquo;s anything else I can do to help, just let me know.
+                  </p>
+                </div>
+              </li>
+              <li class="comment odd alt depth-2 parent" id="comment-1120">
+                <div id="div-comment-1120" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                    "http://www.techbulls.com" rel="external nofollow" class="url">satish</a></cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1120">April 9,
+                    2015 at 11:31 am</a>
+                  </div>
+                  <p>
+                    I found same error.
+                  </p>
+                </div>
+                <ul class="children">
+                  <li class="comment byuser comment-author-admin bypostauthor even depth-3" id="comment-1121">
+                    <div id="div-comment-1121" class="comment-body">
+                      <div class="comment-author vcard">
+                        <img alt="" src=
+                        "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                        srcset=
+                        "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                        class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite>
+                        <span class="says">says:</span>
+                      </div>
+                      <div class="comment-meta commentmetadata">
+                        <a href=
+                        "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1121">April
+                        9, 2015 at 11:32 am</a>
+                      </div>
+                      <p>
+                        Did you follow Jorge&rsquo;s comments (below)?
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1051">
+            <div id="div-comment-1051" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Jorge</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1051">February 21,
+                2015 at 6:57 am</a>
+              </div>
+              <p>
+                Thank you, admin!
+              </p>
+              <p>
+                I followed your steps to clone the project and it works as expected.
+              </p>
+              <p>
+                The problem I had was caused by not running the <code>rake db:seed</code> command. If I ommit that,
+                whenever I try to sign up the app throws the error.
+              </p>
+              <p>
+                Thank you so much for your help!
+              </p>
+              <p>
+                Jorge
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1053">
+                <div id="div-comment-1053" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1053">February
+                    21, 2015 at 8:45 am</a>
+                  </div>
+                  <p>
+                    Glad you got things working!<br>
+                    Thanks for taking the time to follow up.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-even depth-1 parent" id="comment-1057">
+            <div id="div-comment-1057" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/3be35d556be1ffe1e9a371afdff1e080?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Jorge</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href=
+                "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1057">February 22,
+                2015 at 2:53 am</a>
+              </div>
+              <p>
+                Thank you!
+              </p>
+              <p>
+                I am having another problem. When I try to add a new item as admin I get the following error when I hit
+                the update button:
+              </p>
+              <pre>
+undefined method `name' for nil:NilClass
+</pre>
+              <p>
+                Are you able to save items?
+              </p>
+              <p>
+                Thank you!<br>
+                Jorge
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1060">
+                <div id="div-comment-1060" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1060">February
+                    23, 2015 at 2:17 pm</a>
+                  </div>
+                  <p>
+                    Oops, no, this was a bug. The User association isn&rsquo;t being saved when the Item is saved.
+                  </p>
+                  <p>
+                    You can solve this by adding the following to the top of the create action in the ItemsController:
+                  </p>
+                  <pre>
+@item.user_id = current_user.id
+</pre>
+                  <p>
+                    I&rsquo;ll update the article to refelct this.<br>
+                    Thanks!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1094">
+            <div id="div-comment-1094" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/10ca027be59fde8cf403ac09fa8b26f5?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/10ca027be59fde8cf403ac09fa8b26f5?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Alfredo</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1094">March
+                18, 2015 at 4:58 pm</a>
+              </div>
+              <p>
+                Hello, I found your tutorial very useful. I&rsquo;ve just a problem: when I type localhost:3000 I get
+                an error page with the following message: &ldquo;Template is missing<br>
+                Missing template welcome/index&rdquo;, even if I&rsquo;ve added the page
+                /app/views/welcome/index.html.rb, and the routes.rb file like this:
+              </p>
+              <pre>
+authenticated :user do
+  root :to =&gt; 'items#index', as: :authenticated_root
+end
+root :to =&gt; 'welcome#index'
+</pre>
+            </div>
+            <ul class="children">
+              <li class="comment even depth-2 parent" id="comment-1095">
+                <div id="div-comment-1095" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/10ca027be59fde8cf403ac09fa8b26f5?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/10ca027be59fde8cf403ac09fa8b26f5?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Alfredo</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1095">March 18,
+                    2015 at 5:37 pm</a>
+                  </div>
+                  <p>
+                    Solved, was a stupid error! I called the Welcome view welcome.html.rb intead of welcome.html.erb.
+                    Thanks for this tutorial!
+                  </p>
+                </div>
+                <ul class="children">
+                  <li class="comment byuser comment-author-admin bypostauthor odd alt depth-3" id="comment-1096">
+                    <div id="div-comment-1096" class="comment-body">
+                      <div class="comment-author vcard">
+                        <img alt="" src=
+                        "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                        srcset=
+                        "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                        class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite>
+                        <span class="says">says:</span>
+                      </div>
+                      <div class="comment-meta commentmetadata">
+                        <a href=
+                        "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1096">March
+                        19, 2015 at 9:46 am</a>
+                      </div>
+                      <p>
+                        Thanks for your comments. I&rsquo;m glad you found the tutorial useful.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-even depth-1 parent" id="comment-1118">
+            <div id="div-comment-1118" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/6a459e09c0d910389dab59f53d0cf92b?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/6a459e09c0d910389dab59f53d0cf92b?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">ahav</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1118">April
+                8, 2015 at 3:31 pm</a>
+              </div>
+              <p>
+                Thanks for a great tutorial. Instead of a store I want to build a multiuser blog. Do I just change
+                items to posts. How do I use this tutorial to achieve my aim. Thanks
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-1119">
+                <div id="div-comment-1119" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1119">April 8,
+                    2015 at 8:16 pm</a>
+                  </div>
+                  <p>
+                    Hi,
+                  </p>
+                  <p>
+                    I&rsquo;m afraid it&rsquo;ll be slightly more complicated than that.<br>
+                    Maybe try reading one of the numerous <a href=
+                    "https://www.google.de/search?q=rails%20build%20a%20blog">Rails blog tutorials</a> available
+                    online, then use Devise &amp; cancancan to implement the authentication/authorization.
+                  </p>
+                  <p>
+                    Good luck!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-odd thread-alt depth-1 parent" id="comment-1122">
+            <div id="div-comment-1122" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://www.techbulls.com" rel="external nofollow" class="url">satish</a></cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1122">April
+                9, 2015 at 2:00 pm</a>
+              </div>
+              <p>
+                I am using mysql as database and I am getting an error which is,
+              </p>
+              <pre>
+undefined method `name' for nil:NilClass
+</pre>
+              <p>
+                highlighted for &ndash;&gt;
+              </p>
+              <pre>
+def admin?
+  self.role.name == "Admin"
+end
+</pre>
+              <p>
+                Also FYI i am following the steps from starting &hellip;
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-1123">
+                <div id="div-comment-1123" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1123">April 9,
+                    2015 at 2:04 pm</a>
+                  </div>
+                  <p>
+                    Could you supply the steps to recreate the error?
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-even depth-1 parent" id="comment-1124">
+            <div id="div-comment-1124" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href=
+                "http://www.techbulls.com" rel="external nofollow" class="url">satish</a></cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1124">April
+                10, 2015 at 9:25 am</a>
+              </div>
+              <p>
+                I made the following changes:
+              </p>
+              <pre>
+guest = User.new
+guest.role = Role.new
+guest.role.name = "Regular"
+user ||= guest # Guest user
+</pre>
+              <p>
+                in place of:
+              </p>
+              <pre>
+user = User.new
+</pre>
+              <p>
+                in the <code>Ability</code> class and its working now
+              </p>
+              <p>
+                Also, to migrate it from sqlite to any other database just change migration order as-&gt;<br>
+                role, user, item by changing time stamp in migration files name.
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2" id="comment-1126">
+                <div id="div-comment-1126" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1126">April 10,
+                    2015 at 12:27 pm</a>
+                  </div>
+                  <p>
+                    Glad to hear you got it working!<br>
+                    Thanks for taking the time to supply your solution.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment even thread-odd thread-alt depth-1" id="comment-1127">
+            <div id="div-comment-1127" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/07fefa5e01e2c1203ebe854a0f463a3d?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">satish</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1127">April
+                10, 2015 at 12:31 pm</a>
+              </div>
+              <p>
+                you forgot to tell some instructions such as-&gt;
+              </p>
+              <p>
+                1). always use authentication and authorization in order as
+              </p>
+              <pre>
+before_filter :authenticate_user!
+load_and_authorize_resource
+</pre>
+              <p>
+                otherwise <code>undefined method `name' for nil:NilClass</code> error will occur<br>
+                2). use scaffolding in order as
+              </p>
+              <pre>
+rails g scaffold role name:string description:string
+rails g scaffold user name:string role:belongs_to
+rails g scaffold item name:string description:text 'price:decimal{5,2}', user:belongs_to
+</pre>
+              <p>
+                otherwise database migration fail
+              </p>
+            </div>
+          </li>
+          <li class="comment odd alt thread-even depth-1" id="comment-1142">
+            <div id="div-comment-1142" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/860ba163e5c17aeea6567c9c982daa7c?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/860ba163e5c17aeea6567c9c982daa7c?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Reyza</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1142">May 5,
+                2015 at 4:35 am</a>
+              </div>
+              <p>
+                thank&rsquo;s a lot for article, I glad and successfully . .yeah
+              </p>
+            </div>
+          </li>
+          <li class="comment even thread-odd thread-alt depth-1" id="comment-1147">
+            <div id="div-comment-1147" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/860ba163e5c17aeea6567c9c982daa7c?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/860ba163e5c17aeea6567c9c982daa7c?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Kezot</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1147">May 6,
+                2015 at 5:56 pm</a>
+              </div>
+              <p>
+                heyy satish you cool dude
+              </p>
+            </div>
+          </li>
+          <li class="comment odd alt thread-even depth-1 parent" id="comment-1152">
+            <div id="div-comment-1152" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/6a836fcb2ac7dcd7a191fa007397cd82?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/6a836fcb2ac7dcd7a191fa007397cd82?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href="http://coconuts.la"
+                rel="external nofollow" class="url">pochocosta</a></cite> <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1152">May
+                14, 2015 at 8:35 pm</a>
+              </div>
+              <p>
+                Hi! Very nice article! I think I found a little bug. I logged in with the user Kev, then I cancel the
+                account, and then log in with sally and the items index crash with the error: undefined method
+                `name&rsquo; for nil:NilClass
+              </p>
+              <p>
+                I think that the problem is related with the products of the cancelled user.
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1153">
+                <div id="div-comment-1153" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1153">May 14,
+                    2015 at 9:50 pm</a>
+                  </div>
+                  <p>
+                    Hi,
+                  </p>
+                  <p>
+                    You are quite right. When a user is deleted, the items they have been created should be removed
+                    from the database, too.
+                  </p>
+                  <p>
+                    You can do this by changing the following line in <code>app/models/user.rb</code>:
+                  </p>
+                  <pre>
+has_many :items
+</pre>
+                  <p>
+                    to:
+                  </p>
+                  <pre>
+has_many :items, :dependent =&gt; :destroy
+</pre>
+                  <p>
+                    I updated the repo.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1158">
+            <div id="div-comment-1158" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/c190f4cda0c619c2c67a6a9dd93168ca?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/c190f4cda0c619c2c67a6a9dd93168ca?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn"><a href="http://coconuts.la"
+                rel="external nofollow" class="url">pochocosta</a></cite> <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1158">May
+                19, 2015 at 12:09 am</a>
+              </div>
+              <p>
+                Hi again! So many thanks for your reply.<br>
+                I tried to execute the tests but so many of them cause errors. I was able to solve many of them, but
+                not all of them.<br>
+                Someone has been able to solve the &ldquo;ActionView::Template::Error: ActionView::Template::Error:
+                undefined method `name&rsquo; for nil:NilClass&rdquo; in the &ldquo;should get index&rdquo; test of the
+                items_controller_test.rb ?
+              </p>
+              <p>
+                Thanks so much!
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1162">
+                <div id="div-comment-1162" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1162">May 22,
+                    2015 at 1:56 pm</a>
+                  </div>
+                  <p>
+                    Hi there,
+                  </p>
+                  <p>
+                    Not sure how much sense the tests actually make (they were just the standard ones produced by the
+                    <code>scaffold</code> generator).
+                  </p>
+                  <p>
+                    That said, here&rsquo;s how you would make all tests pass:
+                  </p>
+                  <p>
+                    In <code>test_helper.rb</code> add the following to the bottom of the file:
+                  </p>
+                  <pre>
+class ActionController::TestCase
+  include Devise::TestHelpers
+end
+</pre>
+                  <p>
+                    In the controller tests we now have access to Devise&rsquo;s <code>sign_in</code> method.
+                  </p>
+                  <p>
+                    In <code>RolesControllerTest</code>, <code>ItemsControllerTest</code> and
+                    <code>UsersControllerTest</code> add the following line to the top of the setup block:
+                  </p>
+                  <pre>
+sign_in users(:one)
+</pre>
+                  <p>
+                    Now we need to update the fixtures:
+                  </p>
+                  <p>
+                    <code>roles.yml</code>:
+                  </p>
+                  <pre>
+one:
+  id: 1
+  name: Admin
+  description: MyString
+
+two:
+  id: 2
+  name: MyString
+  description: MyString
+</pre>
+                  <p>
+                    <code>users.yml</code>:
+                  </p>
+                  <pre>
+one:
+  id: 1
+  name: Bob
+  role_id: 1
+  email: a@test.com
+
+two:
+  id: 2
+  name: Bill
+  role_id: 2
+  email: b@test.com
+</pre>
+                  <p>
+                    <code>items.yml</code>:
+                  </p>
+                  <pre>
+one:
+  name: MyString
+  description: MyText
+  price: 9.99
+  user_id: 1
+
+two:
+  name: MyString
+  description: MyText
+  price: 9.99
+  user_id: 2
+</pre>
+                  <p>
+                    If you run <code>rake test</code> at this point, they will all pass bar <code>should create
+                    user</code> in <code>UsersControllerTest</code>
+                  </p>
+                  <p>
+                    Here&rsquo;s how we make that work:
+                  </p>
+                  <pre>
+test "should create user" do
+  assert_difference('User.count') do
+    post :create, user: {
+      name: @user.name,
+      role_id: @user.role_id,
+      email: "test@test.com",
+      password: "11111111",
+      password_confirmation: "11111111"
+    }
+  end
+  assert_redirected_to user_path(assigns(:user))
+end
+</pre>
+                  <p>
+                    HTH. I updated the repo with these changes.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-even depth-1 parent" id="comment-1226">
+            <div id="div-comment-1226" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/ecea63d60ae3914393111bb142931eec?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/ecea63d60ae3914393111bb142931eec?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Carlos Fagiani Junior</cite>
+                <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1226">June
+                15, 2015 at 10:56 pm</a>
+              </div>
+              <p>
+                this:
+              </p>
+              <pre>
+app/controllers/application_controller.html
+</pre>
+              <p>
+                is this:
+              </p>
+              <pre>
+app/controllers/application_controller.rb
+</pre>
+              <p>
+                you only write the extension html but it is rb <img draggable="false" class="emoji" alt="&#128578;"
+                src="https://s.w.org/images/core/emoji/2.4/svg/1f642.svg">
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1227">
+                <div id="div-comment-1227" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1227">June 15,
+                    2015 at 10:59 pm</a>
+                  </div>
+                  <p>
+                    Thanks for taking the time to point that out, Carlos.
+                  </p>
+                  <p>
+                    Fixed.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-odd thread-alt depth-1 parent" id="comment-1235">
+            <div id="div-comment-1235" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/ecea63d60ae3914393111bb142931eec?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/ecea63d60ae3914393111bb142931eec?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Carlos Fagiani Junior</cite>
+                <span class="says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1235">June
+                29, 2015 at 11:21 pm</a>
+              </div>
+              <p>
+                Hi Admin,<br>
+                <code>before_filter</code> is deprecated in version&gt;2.6.8, it has been replaced by
+                <code>before_action</code>. It is only a information. But your code works fine. : )
+              </p>
+              <p>
+                I trying to show &ldquo;item#index&rdquo; for no logged users, I try to use:
+              </p>
+              <pre>
+before_action :authenticate_user!, except: [:index, :show]
+</pre>
+              <p>
+                But it crash on ability verification.
+              </p>
+              <p>
+                I add in ability a if:
+              </p>
+              <pre>
+if user.id.nil?
+      can :read, Item
+...
+</pre>
+              <p>
+                But it no sound good for me. Is it correct? or is it a bad smell?
+              </p>
+            </div>
+            <ul class="children">
+              <li class="comment byuser comment-author-admin bypostauthor even depth-2" id="comment-1236">
+                <div id="div-comment-1236" class="comment-body">
+                  <div class="comment-author vcard">
+                    <img alt="" src=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=64&amp;d=monsterid&amp;r=g"
+                    srcset=
+                    "https://secure.gravatar.com/avatar/e00b4db03ebd33a0153b629abbd1ad30?s=128&amp;d=monsterid&amp;r=g 2x"
+                    class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">admin</cite> <span class=
+                    "says">says:</span>
+                  </div>
+                  <div class="comment-meta commentmetadata">
+                    <a href=
+                    "https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1236">June 30,
+                    2015 at 1:48 pm</a>
+                  </div>
+                  <p>
+                    I would have thought
+                  </p>
+                  <pre>
+before_action :authenticate_user!, except: [:index, :show]
+</pre>
+                  <p>
+                    would have worked. How is it crashing?
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="comment odd alt thread-even depth-1" id="comment-1289">
+            <div id="div-comment-1289" class="comment-body">
+              <div class="comment-author vcard">
+                <img alt="" src=
+                "https://secure.gravatar.com/avatar/ffeadbf17017db11ac061d2667b2d74a?s=64&amp;d=monsterid&amp;r=g"
+                srcset=
+                "https://secure.gravatar.com/avatar/ffeadbf17017db11ac061d2667b2d74a?s=128&amp;d=monsterid&amp;r=g 2x"
+                class="avatar avatar-64 photo" height="64" width="64"> <cite class="fn">Gate Keeper</cite> <span class=
+                "says">says:</span>
+              </div>
+              <div class="comment-meta commentmetadata">
+                <a href="https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails-4-2/#comment-1289">August
+                10, 2015 at 9:28 am</a>
+              </div>
+              <p>
+                This works&hellip; Fantastic job !!!
+              </p>
+            </div>
+          </li>
+        </ol>
+        <p>
+          Pingbacks:
+        </p>
+        <ul>
+          <li>
+            <a href="http://www.pearltrees.com/soyyoese/tree/id14515342/item152247476" rel="external nofollow" class=
+            "url">Authorizationandrolifying | Pearltrees</a>
+          </li>
+        </ul>
+      </div>
+      <h3>Comments are closed!</h3>
+    </div>

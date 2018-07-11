@@ -3,6 +3,7 @@ title: How to Set up Rails with PostgreSQL on Linux Mint
 layout: post
 permalink: /how-to-setup-rails-with-postgresql-on-linux-mint/
 excerpt_separator: <!--more-->
+old-comments: how-to-setup-rails-with-postgresql-on-linux-mint.html
 ---
 
 Rails is database agnostic, meaning that it can talk to different databases without more than configuration changes. Here's how to install [PostgreSQL](http://www.postgresql.org/ "PostgreSQL homepage") on Linux Mint 16 and configure it for use with Rails.
