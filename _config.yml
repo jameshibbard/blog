@@ -7,8 +7,7 @@ title:            'James Hibbard'
 tagline:          'Web Developer'
 description:      'Web developer, network admin and author'
 url:              https://hibbard.eu
-baseurl:          '/new'
-                  # the optional subpath of your site, e.g. "/blog"
+baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
                   # other pages at root, see the paginate_path and
