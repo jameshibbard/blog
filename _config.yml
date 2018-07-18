@@ -13,6 +13,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # other pages at root, see the paginate_path and
                   # sidebar_blog_link below.
 
+analytics: true
 comments: false
 
 author:
