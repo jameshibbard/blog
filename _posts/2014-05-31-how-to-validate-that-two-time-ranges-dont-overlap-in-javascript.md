@@ -6,6 +6,7 @@ tags:
   - javascript
   - times
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 I was working on a form for a timekeeping app, where a user is able to enter their time worked, as well as breaks taken.

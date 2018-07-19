@@ -9,6 +9,7 @@ tags:
   - windows
 excerpt_separator: <!--more-->
 old-comments: how-to-manage-multiple-versions-of-ruby-on-windows.html
+comments: false
 ---
 
 I had recently started work on a Rails project and was setting up my local dev environment which I wanted to make it as similar as possible to the environment on the server I will deploy to.

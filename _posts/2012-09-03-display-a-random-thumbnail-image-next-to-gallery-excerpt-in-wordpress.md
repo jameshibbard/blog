@@ -7,6 +7,7 @@ tags:
   - images
   - wordpress
   - wordpress themes
+comments: false
 ---
 
 I have a WordPress site (designed using a Twenty Eleven child theme), which has a whole bunch of image galleries on it.

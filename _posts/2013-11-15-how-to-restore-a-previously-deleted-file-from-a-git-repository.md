@@ -6,6 +6,7 @@ tags:
   - git
   - working with files
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 I was recently working on a project and realised that I needed a file that I had long since deleted.

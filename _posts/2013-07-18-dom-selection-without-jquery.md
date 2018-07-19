@@ -8,6 +8,7 @@ tags:
   - jquery
   - selectors
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 One of the main reasons behind jQuery's meteoric rise to popularity was its use of the CSS selector syntax to select DOM elements and the ease with which it could then traverse these and modify their content.

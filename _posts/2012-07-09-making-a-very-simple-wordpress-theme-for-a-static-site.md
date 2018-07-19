@@ -6,6 +6,7 @@ tags:
   - wordpress
   - wordpress themes
 old-comments: making-a-very-simple-wordpress-theme-for-a-static-site.html
+comments: false
 ---
 
 Despite starting life as a blogging platform, WordPress can also be used as a fully functional CMS. The following steps describe how to skin WordPress for use as a CMS with a simple brochure-style website.

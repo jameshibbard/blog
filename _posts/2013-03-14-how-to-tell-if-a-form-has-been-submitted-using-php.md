@@ -7,6 +7,7 @@ tags:
   - php
 excerpt_separator: <!--more-->
 old-comments: how-to-tell-if-a-form-has-been-submitted-using-php.html
+comments: false
 ---
 
 Consider this scenario:

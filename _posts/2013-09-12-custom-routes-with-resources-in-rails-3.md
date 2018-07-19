@@ -7,6 +7,7 @@ tags:
   - routing
   - ruby
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 The problem: you have a RESTful resource with default routes. The form to create a new item is located at `http://mydomain.com/resource/new/`. When you submit the form with valid input, a new item is created and that works fine.

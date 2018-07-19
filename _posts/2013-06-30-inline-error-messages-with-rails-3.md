@@ -9,6 +9,7 @@ tags:
   - ruby
 excerpt_separator: <!--more-->
 old-comments: inline-error-messages-with-rails-3.html
+comments: false
 ---
 
 I was recently tasked with converting a Rails app from Rails 2.3.x to 3.2.x.

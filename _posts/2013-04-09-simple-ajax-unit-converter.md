@@ -9,6 +9,7 @@ tags:
   - php
 excerpt_separator: <!--more-->
 old-comments: simple-ajax-unit-converter.html
+comments: false
 ---
 
 I've been doing quite a bit with jQuery and Ajax as of late and have not only been impressed at the ease of implementation, but also the snappy and responsive feel that it brings to your web apps.

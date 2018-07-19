@@ -8,6 +8,7 @@ tags:
   - servers
 excerpt_separator: <!--more-->
 old-comments: php-headerlocation-not-working-in-mamp.html
+comments: false
 ---
 
 Recently, I was trying to help someone build a simple contact form in PHP.

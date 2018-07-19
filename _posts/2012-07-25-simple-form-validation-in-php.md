@@ -8,6 +8,7 @@ tags:
   - input validation
   - php
 old-comments: simple-form-validation-in-php.html
+comments: false
 ---
 
 Server-side validation of user input is something you run into once in a while and although it is not an overly complicated subject, there are a couple of gotchas to be aware of.

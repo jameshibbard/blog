@@ -14,7 +14,9 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # sidebar_blog_link below.
 
 analytics: true
-comments: false
+comments: true
+disqus:
+  shortname: james-hibbard
 
 author:
   name:           'James Hibbard'

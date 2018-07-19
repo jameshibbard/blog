@@ -7,6 +7,7 @@ tags:
   - jquery
   - promises
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Promises are starting to change the way we write asynchronous JavaScript. They allow us to write clearer, shorter callbacks and to separate application logic from DOM interaction.

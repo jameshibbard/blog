@@ -8,6 +8,7 @@ tags:
   - ruby
   - version managers
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Last year I wrote about [installing rbenv on Linux Mint 16](http://hibbard.eu/how-to-install-rbenv-on-linux-mint-16/ "How to install rbenv on Linux Mint 16"). Back then the installation process as described on [the project's Github page](https://github.com/sstephenson/rbenv "rbenv - Groom your app's Ruby environment") didn't work for me and, after much frustration,  I ended up installing an older version of rbenv from the repositories.

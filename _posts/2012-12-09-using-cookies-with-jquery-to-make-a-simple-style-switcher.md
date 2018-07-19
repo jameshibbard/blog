@@ -8,6 +8,7 @@ tags:
   - javascript
   - jquery
 old-comments: using-cookies-with-jquery-to-make-a-simple-style-switcher.html
+comments: false
 ---
 
 Short for **H**yper**T**ext **T**ransfer **P**rotocol, HTTP is the underlying protocol of the World Wide Web. It is used when a browser requests a web page from a server and it is used when the server responds to the browser's request. HTTP is also stateless, which means that once a server has sent a page to a browser, it forgets having done so straight away. This can be a problem, for example, if a user has identified themselves in order to access protected pages, or if a user wants to customize some aspect of a website, as the server simply cannot remember a thing about it!

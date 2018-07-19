@@ -8,6 +8,7 @@ tags:
   - ruby
   - version managers
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Last year I switched from Windows to Linux Mint as my main operating system and wanted to install a Ruby version manager.

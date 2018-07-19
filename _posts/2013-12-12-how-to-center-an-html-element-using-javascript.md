@@ -6,6 +6,7 @@ tags:
   - images
 permalink: /how-to-center-an-html-element-using-javascript/
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Imagine you have an element which is dynamically added to your web page (an image in a lightbox, for instance) and you want to centre it on the screen both horizontally and vertically.

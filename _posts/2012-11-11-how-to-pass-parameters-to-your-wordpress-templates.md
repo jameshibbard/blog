@@ -5,6 +5,7 @@ permalink: /how-to-pass-parameters-to-your-wordpress-templates/
 tags:
   - wordpress
   - wordpress templates
+comments: false
 ---
 
 I currently find myself in the middle of redesigning this site, as I want to move away from the generic WordPress theme to something a little more individual. That my new design should be responsive was a no-brainer, but this time round I decided to try something new (for me, at least) and that was to design for mobile first.

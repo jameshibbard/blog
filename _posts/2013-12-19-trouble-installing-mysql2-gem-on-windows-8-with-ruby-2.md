@@ -9,6 +9,7 @@ tags:
   - windows
 excerpt_separator: <!--more-->
 old-comments: trouble-installing-mysql2-gem-on-windows-8-with-ruby-2.html
+comments: false
 ---
 
 I recently installed the 64 bit version of Ruby 2.0 on my Windows 8 machine.

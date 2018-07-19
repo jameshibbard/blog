@@ -10,6 +10,7 @@ tags:
   - ruby gems
   - working with files
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 At work, one of the applicants to our programme submitted parts of her application in Russian (despite it being an English speaking programme).

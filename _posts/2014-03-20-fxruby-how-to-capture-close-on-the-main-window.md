@@ -8,6 +8,7 @@ tags:
   - ruby
   - ruby gems
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 I wrote a small FXRuby program which allows the user to do some simple file manipulation, then upload the altered files via FTP to a web server.

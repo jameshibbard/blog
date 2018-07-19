@@ -8,6 +8,7 @@ tags:
   - modernizr
 excerpt_separator: <!--more-->
 old-comments: how-to-detect-a-touch-device-using-javascript.html
+comments: false
 ---
 
 A while back I had to make a navigation menu which played a sound when you moused over the various menu points.

@@ -6,6 +6,7 @@ excerpt_separator: <!--more-->
 tags:
   - php
   - ruby
+comments: false
 ---
 
 To display the contents of an object in Ruby is really simple.

@@ -10,6 +10,7 @@ tags:
   - rails
 excerpt_separator: <!--more-->
 old-comments: nested-attributes-and-updating-without-a-password-in-devise.html
+comments: false
 ---
 
 I've spent all day trying to get Devise and nested attributes to play nicely together. This and giving the user the ability to update parts of their profile without providing a password proved kind of tricky. Here's how I got things working.

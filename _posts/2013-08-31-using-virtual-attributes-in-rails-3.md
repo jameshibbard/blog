@@ -7,6 +7,7 @@ tags:
   - rails
   - ruby
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 In Rails, virtual attributes allow you to create form fields that do not map directly to the database.

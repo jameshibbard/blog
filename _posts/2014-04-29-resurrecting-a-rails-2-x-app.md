@@ -9,6 +9,7 @@ tags:
   - ruby
 excerpt_separator: <!--more-->
 old-comments: resurrecting-a-rails-2-x-app.html
+comments: false
 ---
 
 This morning I had to give a client an estimate for some work they wanted doing on a Rails 2.1.2 app.

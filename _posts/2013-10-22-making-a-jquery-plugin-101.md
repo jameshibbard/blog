@@ -8,6 +8,7 @@ tags:
   - jquery
   - jquery plugins
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 The other day my colleague mentioned that she'd like a simple calendar on the front page of her website. This didn't sound too difficult, so being a nice chap I said I'd take a look.

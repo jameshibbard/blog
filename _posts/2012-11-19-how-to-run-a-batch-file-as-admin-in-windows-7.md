@@ -6,6 +6,7 @@ tags:
   - batch files
   - windows
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 This is quite a handy tip I picked up this week when I had a Windows batch file which I needed to run with administrator privileges.

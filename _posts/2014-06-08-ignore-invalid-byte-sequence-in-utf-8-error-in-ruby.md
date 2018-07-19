@@ -6,6 +6,7 @@ tags:
   - ruby
   - working with files
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 I wrote a simple Ruby script to parse text files and manipulate their content.

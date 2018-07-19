@@ -9,6 +9,7 @@ tags:
   - javascript
 excerpt_separator: <!--more-->
 old-comments: simple-javascript-debugging-with-chromes-console.html
+comments: false
 ---
 
 All to often of late, I have seen people having trouble trying to debug some JavaScript or other.

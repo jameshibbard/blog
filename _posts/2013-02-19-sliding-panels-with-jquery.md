@@ -9,6 +9,7 @@ tags:
   - javascript
   - jquery
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Sliding panels are cool! jQuery is cool! Who doesn't love sliding panels and jQuery??

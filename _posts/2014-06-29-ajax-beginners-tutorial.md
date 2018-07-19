@@ -9,8 +9,8 @@ tags:
   - php
 excerpt_separator: <!--more-->
 old-comments: ajax-beginners-tutorial.html
+comments: false
 ---
-
 
 Ajax stands for Asynchronous JavaScript and XML and is used for allowing the client side of an application to communicate with the server side of an application.
 

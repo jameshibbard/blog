@@ -5,6 +5,7 @@ permalink: /how-to-burn-a-cd-dvd-in-windows-7/
 tags:
   - cd burning
   - windows
+comments: false
 ---
 
 The good news is that to burn files (pictures, mp3s, Word documents etc.) onto a CD or DVD in Windows 7 doesn't require any extra software. Here's how to do it.

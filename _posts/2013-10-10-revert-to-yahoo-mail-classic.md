@@ -8,6 +8,7 @@ tags:
   - internet explorer
 excerpt_separator: <!--more-->
 old-comments: revert-to-yahoo-mail-classic.html
+comments: false
 ---
 
 Today I got a phone call from a relative, who was rather annoyed that Yahoo! had upgraded their mail interface.

@@ -8,6 +8,7 @@ tags:
   - jquery
 excerpt_separator: <!--more-->
 old-comments: programmatically-triggering-events-in-jquery.html
+comments: false
 ---
 
 Recently, I made a tab-based menu system which loaded various content via Ajax whenever a user clicked on any of the tabs.

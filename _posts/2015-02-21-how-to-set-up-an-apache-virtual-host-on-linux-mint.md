@@ -7,6 +7,7 @@ tags:
   - linux
   - servers
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 Running Apache on my local machine helps me speed up my web development work. It means that I can use [root-relative urls](http://ifyoucodeittheywill.com/2009/03/absolute-relative-and-root-relative-urls/#root-relative-urls "Instead of being relative to where you are, root-relative is relative to where the root directory is."), server-side programming languages (such as PHP) and interface with a database — all without having to upload anything via FTP.

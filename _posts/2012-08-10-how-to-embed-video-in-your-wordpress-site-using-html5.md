@@ -8,6 +8,7 @@ tags:
   - video
   - wordpress
   - wordpress plugins
+comments: false
 ---
 
 I have a [Panasonic HDC-SD800](http://www.panasonic.co.uk/html/en_GB/Products/HDC-SD800/Overview/6828016/index.html "Product page for /HDC-SD800") high definition video camera and I wanted to embed a couple of short film clips on a private website of mine, which runs on the latest version of WordPress (3.4.1 at time of writing).

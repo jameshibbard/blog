@@ -8,6 +8,7 @@ tags:
   - rails
   - ruby
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 I was recently working on an application, that lets people from all over the world apply for a programme at the university I work at.

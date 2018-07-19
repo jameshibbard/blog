@@ -10,6 +10,7 @@ tags:
   - local storage
 excerpt_separator: <!--more-->
 old-comments: display-ui-blocking-overlay-on-page-load.html
+comments: false
 ---
 
 A client asked me to add an announcement to their website, informing visitors that their business would be shut during the holidays.

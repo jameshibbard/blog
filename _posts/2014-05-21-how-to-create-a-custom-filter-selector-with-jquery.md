@@ -7,6 +7,7 @@ tags:
   - jquery
   - selectors
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 A little jQuery trick I learned recently, was how to create a reusable, custom filter to target specific elements based on their characteristics.

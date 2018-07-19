@@ -7,6 +7,7 @@ tags:
   - wordpress
   - wordpress plugins
 old-comments: display-your-wordpress-contact-form-in-a-lightbox.html
+comments: false
 ---
 
 Recently, a client asked me to have their contact form display in a Lightbox (as opposed to on a separate page). I happily implemented this for them and the end result looked pretty snazzy, so I thought I'd write up how I did it.

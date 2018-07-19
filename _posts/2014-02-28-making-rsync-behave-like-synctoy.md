@@ -8,6 +8,7 @@ tags:
   - working with files
 excerpt_separator: <!--more-->
 old-comments: making-rsync-behave-like-synctoy.html
+comments: false
 ---
 
 Microsoft have produced a very handy backup tool for Windows in the form of [SyncToy](http://www.microsoft.com/en-us/download/details.aspx?id=15155 "SyncToy 2.1").

@@ -7,6 +7,7 @@ tags:
   - code editors
   - regular expressions
 old-comments: using-regular-expressions-in-dreamweaver.html
+comments: false
 ---
 
 Recently, I had to change the following HTML:

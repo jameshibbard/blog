@@ -9,6 +9,7 @@ tags:
   - firefox
   - opera
 excerpt_separator: <!--more-->
+comments: false
 ---
 
 It often occurs that I make changes to an existing website for a client, then send the client a mail informing them of what I have done.
