@@ -135,7 +135,7 @@ rbenv rehash
 
 And that's all there is to it.
 
-## Making a launcher
+## Making a Launcher
 
 A small issue that I ran into using rbenv, was that I had an FXRuby app that I wanted to make a desktop launcher for.
 
