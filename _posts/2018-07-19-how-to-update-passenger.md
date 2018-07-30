@@ -18,7 +18,7 @@ As with any piece of software, from time to time [security vulnerabilities will 
 
 Although the project's homepage offers [some excellent documentation on how to do this](https://www.phusionpassenger.com/library/install/apache/upgrade/), the steps they describe didn't work for me and resulted in my app crashing.
 
-Inspecting the Apache error logs informed me that a segmentation fault had occurred and that I may have encountered a bug in the Ruby interpreter or extension libraries. This was accompanied by a 5,000 line stack trace.
+Inspecting the Apache error logs informed me that a segmentation fault had occurred and that I may have encountered a bug in the Ruby interpreter. This was accompanied by a 5,000 line stack trace.
 
 Oh dear!
 
@@ -64,7 +64,7 @@ This is where my problems started ...
 
 ## Segmentation Fault
 
-When I attempted to restart Apache my app went into 404 mode and became unreachable.
+When I attempted to restart Apache, my app went into 404 mode and became unreachable.
 
 Inspecting `/var/log/apache2/error.log` revealed a very long error message.
 
@@ -80,7 +80,7 @@ App 108939 output: c:0014 p:0055 s:0067 e:000066 METHOD /var/www/app/shared/bund
 ...
 ```
 
-This had me scratching my head until about three quarters of the way down this 5,950 line error message I found the following lines mentioning a "graceful restart":
+This had me scratching my head until about three quarters of the way down I found the following lines mentioning a "graceful restart":
 
 ```bash
 [Sat Jun 02 06:25:01.765420 2018] [mpm_prefork:notice] [pid 83397] AH00171: Graceful restart requested, doing restart
