@@ -10,7 +10,16 @@ tags:
   - ruby
   - ruby gems
   - servers
+twitter:
+  title: "How to Update Phusion Passenger When Installed via RubyGems"
+  description: "When I tried to update Phusion Passenger my Rails app crashed, and Apache's logs pointed to a segmentation fault. Here's how I fixed it."
+  image_url: https://res.cloudinary.com/hibbard/image/upload/f_auto,w_800/v1535634471/passenger.jpg
 ---
+
+<figure>
+  <img src="https://res.cloudinary.com/hibbard/image/upload/f_auto,w_800/v1535634471/passenger.jpg" alt="Pair of feet sticking out of a car window">
+  <figcaption>Photo by <a href="https://unsplash.com/photos/Jx39BWpv6xs">Erik Odiin</a> on <a href="https://unsplash.com/search/photos/passenger">Unsplash</a></figcaption>
+</figure>
 
 Phusion Passenger (a.k.a. mod_rails) is a module for the Apache HTTP Server which can (among other things) be used to deploy Rails apps.
 

@@ -26,5 +26,16 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml" />
 
+  <!-- Twitter -->
+  {% if page.twitter %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@jchibbard">
+    <meta name="twitter:creator" content="@jchibbard">
+    <meta name="twitter:title" content="{{ page.twitter.title }}">
+    <meta name="twitter:description" content="{{ page.twitter.description }}">
+    <meta name="twitter:image:src" content="{{ page.twitter.image_url }}">
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+
   {% include custom-head.html %}
 </head>
