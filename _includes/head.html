@@ -37,5 +37,10 @@
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
 
+  <!-- Google -->
+  {% if page.twitter %}
+    <meta name="description" content="{{ page.twitter.description }}">
+  {% endif %}
+
   {% include custom-head.html %}
 </head>

@@ -46,3 +46,6 @@ Makefile
 _config.dev.yml
 .vscode
 *.gem
+
+#Images
+assets/images
