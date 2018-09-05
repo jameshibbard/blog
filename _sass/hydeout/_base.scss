@@ -102,18 +102,3 @@ button, input[type="submit"] {
     box-shadow: $default-box-shadow;
   }
 }
-
-figure{
-  margin: 0;
-
-  figcaption {
-    font-size: smaller;
-    margin-top: -0.5rem;
-    margin-bottom: 1.5rem;
-  }
-}
-
-// Hide image in excerpt
-.index figure {
-  display: none;
-}
