@@ -10,7 +10,7 @@ tags:
   - virtualbox
 twitter:
   title: "How to Install Ubuntu Server on VirtualBox"
-  description: "In this post I'll show you how to install Ubuntu 18.04.1 LTS (Bionic Beaver) on Oracle's VirtualBox. I'll also demonstrate how to connect to the Ubuntu instance via SSH."
+  description: "In this post I'll show you how to install Ubuntu Server 18.04.1 on VirtualBox. I'll also demonstrate how to connect to the Ubuntu instance via SSH."
   image_url: https://res.cloudinary.com/hibbard/image/upload/f_auto,w_800/v1536153775/stock/crayons.jpg
 ---
 
