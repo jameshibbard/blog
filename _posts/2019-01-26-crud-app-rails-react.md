@@ -286,7 +286,7 @@ Rails.application.routes.draw do
 end
 ```
 
-We'll also need to include Webpacker's `javascript_pack_tag` in the `<head>` section of `app/views/layouts/application.erb.html`:
+We'll also need to include Webpacker's `javascript_pack_tag` in the `<head>` section of `app/views/layouts/application.html.erb`:
 
 ```erb
 <%= javascript_pack_tag 'application' %>
@@ -597,7 +597,7 @@ end
 
 In the first line we're pointing our root route to `http://localhost:3000/events`, this is purely for aesthetic reasons. However in the four lines that follow, you can see that we are informing Rails about the routes we will be using in our React application. This is important, as otherwise if a user requested any of these routes directly (by refreshing the page, for example), Rails would know nothing about them and would respond with a 404. Doing things this way means that Rails can simply serve our React app and let it work out which view to display.
 
-Now let's add the router to `app/javascript/application.js`:
+Now let's add the router to `app/javascript/packs/application.js`:
 
 ```jsx
 import React from 'react';
