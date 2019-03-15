@@ -219,7 +219,7 @@ sudo fastboot flash boot twrp-3.2.3-nozomi.img
 
 This worked (in that the command ran without errors) and I tentatively restarted the phone. Once it booted back up again, the first thing I noticed was that the light in the top left corner turned pink. It hadn't done that before, so I pressed _Volume up_ a couple of times, and I was in to the recovery. Yay!
 
-Eager to test the next step, I booted back into fastboot and moved the TWRP image to the phone:
+Eager to test the next step, I booted back into fastboot and moved the custom ROM to the phone:
 
 ```bash
 sudo fastboot reboot
