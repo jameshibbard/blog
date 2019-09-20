@@ -183,7 +183,7 @@ Then, in VirtualBox Manager, go to _Global Tools_ > _Host Network Manager_ and h
 
 ![Host Network Manager](https://res.cloudinary.com/hibbard/image/upload/v1536145368/ubuntu-virtualbox/virtualbox-manager-9.png)
 
-Then go back to _Machine Tools_ > _Settings_ > _Network_ > _Adapter 1_ and set it to "Bridged Adapter.
+Then go back to _Machine Tools_ > _Settings_ > _Network_ > _Adapter 1_ and set it to "Bridged Adapter".
 
 ![VirtualBox Manager - Network Adapter 1](https://res.cloudinary.com/hibbard/image/upload/v1536145368/ubuntu-virtualbox/virtualbox-manager-10.png)
 
@@ -191,11 +191,11 @@ After that, select _Adapter 2_, enable it and set it to "Host-only adapter". The
 
 ![VirtualBox Manager - Network Adapter 2](https://res.cloudinary.com/hibbard/image/upload/v1536145368/ubuntu-virtualbox/virtualbox-manager-11.png)
 
-Finally, go to _File_ > _Preferences_ > _Network_. Under _NAT Networks_ if you don't see a NAT network click on _+_ icon to add one. Then click _OK_ to dismiss the dialogue.
+Finally, go to _File_ > _Preferences_ > _Network_. Under _NAT Networks_ if you don't see a NAT network click on the _+_ icon to add one. Then click _OK_ to dismiss the dialogue.
 
 ![VirtualBox Manager - NAT Networks](https://res.cloudinary.com/hibbard/image/upload/v1536145368/ubuntu-virtualbox/virtualbox-manager-12.png)
 
-Start up your virtual machine, then enter `ifconfig` (in the guest) and note the IP address assigned to your main network adapter. In my case this was "192.168.178.36".
+Start up your virtual machine, then enter `ifconfig` (in the guest) and note the IP address assigned to your main network adapter. In my case this was `192.168.178.36`.
 
 ## Starting and Stopping VirtualBox in Headless Mode
 
