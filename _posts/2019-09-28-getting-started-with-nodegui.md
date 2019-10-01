@@ -23,7 +23,7 @@ If you're curious as to what we'll end up with, [the finished code can be found 
 
 And this is what the app will look like:
 
-![Screenshot of app](https://res.cloudinary.com/hibbard/image/upload/v1568030141/password-generator.png)
+![Screenshot of app](https://res.cloudinary.com/hibbard/image/upload/v1568030141/node-gui/password-generator.png)
 
 ## Why Not Electron?
 
@@ -112,7 +112,7 @@ After this has completed, you can run `npm run start` from the project root, to 
 
 And here's the result. Pretty, no?
 
-![Hello, World!](https://res.cloudinary.com/hibbard/image/upload/v1569312118/node-gui-01.png)
+![Hello, World!](https://res.cloudinary.com/hibbard/image/upload/v1569312118/node-gui/node-gui-01.png)
 
 ## Examining the Demo App
 
