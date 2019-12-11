@@ -74,7 +74,7 @@ The `error` attribute also accepts a function which will be executed when the Aj
 
 In our PHP script, we will extract the variable submitted via the form and simply return it to the client-side script:
 
-```PHP
+```php
 $value = $_POST["value"];
 echo "I received '" . $value . "'";
 ```

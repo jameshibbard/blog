@@ -28,18 +28,12 @@ author:
   url:            https://twitter.com/jchibbard
 
 paginate:         10
-# paginate_path:    '/page:num'
-                    # Or '/blog/page:num' if you want to move your index pages
+# paginate_path:    '/page:num', or '/blog/page:num' if you want to move your index pages
 
 # Build settings
 markdown:         kramdown
 highlighter:      rouge
 theme:            jekyll-theme-hydeout
-plugins:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
-  - jekyll-onebox
 
 # Custom vars
 sidebar_home_link:  true
@@ -48,7 +42,7 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/jameshibbard/blog
+  repo:           https://github.com/jameshibbard/blog
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

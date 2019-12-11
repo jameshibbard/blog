@@ -2,15 +2,15 @@
 # Use a comment to ensure Jekyll reads the file to be transformed into CSS later
 # only main files contain this front matter, not partials.
 ---
-/* VARIABLES */
+
+// Variables
 $gray-7: #ebebeb;
 $gray-8: #999;
 $sidebar-sticky: false !default;
 
 @import "hydeout";
 
-
-/* ADDITIONS */
+// Images
 figure{
   margin: 0;
 
@@ -22,9 +22,7 @@ figure{
 }
 
 // Hide image in excerpt
-.index figure {
-  display: none;
-}
+.index figure { display: none; }
 
 // Hide terminal screenshots for anything but desktop
 @media (max-width: 1210px) {
@@ -33,20 +31,12 @@ figure{
   }
 }
 
-// MAke sidebar icons larger
-a svg, .icon svg {
-    width: auto;
-}
-#sidebar-icon-links {
-    margin-left: -0.5em;
-}
+// Lager sidebar icons
+a svg, .icon svg { width: auto; }
+#sidebar-icon-links { margin-left: -0.5em; }
 
-//Less padding in code blocks
-.highlight {
-    padding: 0.7rem;
-}
-
-/* OLD COMMENTS */
+// Old comments
+// https://css-tricks.com/snippets/wordpress/base-threaded-comments-styling/
 ol.commentlist{ margin:0 0 0.5rem 0; padding:0; text-indent:0; float:left; font-size: .8rem; width:100%; list-style: none; }
 ol.commentlist p{ margin-bottom:8px; clear: both; }
 ol.commentlist li{}
@@ -90,52 +80,7 @@ ol.commentlist li.thread-alt{ }
 ol.commentlist li.thread-even{}
 ol.commentlist li.thread-odd{}
 
-// http://css-tricks.com/snippets/wordpress/base-threaded-comments-styling/
-
-/*
-ol.commentlist { list-style:none; margin:0 0 1em; padding:0; text-indent:0; }
-ol.commentlist li { }
-ol.commentlist li.alt { }
-ol.commentlist li.bypostauthor {}
-ol.commentlist li.byuser {}
-ol.commentlist li.comment-author-admin {}
-ol.commentlist li.comment { border-bottom:1px dotted #666; padding:1em; }
-ol.commentlist li.comment div.comment-author {}
-ol.commentlist li.comment div.vcard { font:normal 16px georgia,times,serif; }
-ol.commentlist li.comment div.vcard cite.fn { font-style:normal; }
-ol.commentlist li.comment div.vcard cite.fn a.url {}
-ol.commentlist li.comment div.vcard img.avatar { border:5px solid #ccc; float:right; margin:0 0 1em 1em; }
-ol.commentlist li.comment div.vcard img.avatar-32 {}
-ol.commentlist li.comment div.vcard img.photo {}
-ol.commentlist li.comment div.vcard span.says {}
-ol.commentlist li.comment div.commentmetadata {}
-ol.commentlist li.comment div.comment-meta { font-size:9px; }
-ol.commentlist li.comment div.comment-meta a { color:#ccc; }
-ol.commentlist li.comment p { font-size:11px; margin:0 0 1em; }
-ol.commentlist li.comment ul { font-size:11px; list-style:square; margin:0 0 1em 2em; }
-ol.commentlist li.comment div.reply { font-size:11px; }
-ol.commentlist li.comment div.reply a { font-weight:bold; }
-ol.commentlist li.comment ul.children { list-style:none; margin:1em 0 0; text-indent:0; }
-ol.commentlist li.comment ul.children li {}
-ol.commentlist li.comment ul.children li.alt {}
-ol.commentlist li.comment ul.children li.bypostauthor {}
-ol.commentlist li.comment ul.children li.byuser {}
-ol.commentlist li.comment ul.children li.comment {}
-ol.commentlist li.comment ul.children li.comment-author-admin {}
-ol.commentlist li.comment ul.children li.depth-2 { border-left:5px solid #555; margin:0 0 .25em .25em; }
-ol.commentlist li.comment ul.children li.depth-3 { border-left:5px solid #999; margin:0 0 .25em .25em; }
-ol.commentlist li.comment ul.children li.depth-4 { border-left:5px solid #bbb; margin:0 0 .25em .25em; }
-ol.commentlist li.comment ul.children li.depth-5 {}
-ol.commentlist li.comment ul.children li.odd {}
-ol.commentlist li.even { background:#fff; }
-ol.commentlist li.odd { background:#f6f6f6; }
-ol.commentlist li.parent { border-left:5px solid #111; }
-ol.commentlist li.thread-alt { }
-ol.commentlist li.thread-even {}
-ol.commentlist li.thread-odd {}
-*/
-
-/* ONE BOX */
+// Onebox
 aside.onebox {
   border: 5px solid $gray-7;
   padding: 12px 25px 0px 12px;
@@ -165,11 +110,9 @@ aside.onebox {
   }
 }
 
-/* SYNTAX */
-/*
-  https://github.com/richleland/pygments-css
-  Theme: vs.css
-*/
+// Syntax
+// https://github.com/richleland/pygments-css
+// Theme: vs.css
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #008000 } /* Comment */
@@ -212,3 +155,6 @@ aside.onebox {
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
+
+//Less padding in code blocks
+.highlight { padding: 0.7rem; }
