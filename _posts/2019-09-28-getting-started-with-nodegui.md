@@ -23,7 +23,7 @@ If you're curious as to what we'll end up with, [the finished code can be found 
 
 And this is what the app will look like:
 
-![Screenshot of app](https://res.cloudinary.com/hibbard/image/upload/v1568030141/node-gui/password-generator.png)
+![Screenshot of app](https://res.cloudinary.com/hibbard/image/upload/v1581442610/node-gui/password-generator.png)
 
 ## Why Not Electron?
 
@@ -67,7 +67,7 @@ You can check that the installation process went well by typing `node -v` to con
 
 ### Additional Dependencies
 
-I'm running Linux, so the installation instructions in this section will reflect that. For other operating systems, please [check the documentation](https://nodegui.github.io/nodegui/#/tutorial/development-environment).
+I'm running Linux, so the installation instructions in this section will reflect that. For other operating systems, please [check the documentation](https://docs.nodegui.org/docs/guides/getting-started/#developer-environment).
 
 To get NodeGUI working, we'll need to install [Make](http://man7.org/linux/man-pages/man1/make.1.html), [GCC](https://gcc.gnu.org/) v7 and [CMake](https://cmake.org/). This can be done with:
 
@@ -106,7 +106,7 @@ cd nodegui-starter
 npm install
 ```
 
-Running `npm install` will download a custom Node binary called [Qode](https://docs.nodegui.org/#/tutorial/application-architecture?id=qode), upon which NodeGUI is based. It will then use the tools we installed previously to compile the C++ files that comprise the library.
+Running `npm install` will download a custom Node binary called [Qode](https://docs.nodegui.org/docs/guides/nodegui-architecture#qode), upon which NodeGUI is based. It will then use the tools we installed previously to compile the C++ files that comprise the library.
 
 After this has completed, you can run `npm run start` from the project root, to see the canonical "Hello, World!" example. Under the hood, this command will kick off webpack, which transpiles the contents of `src/index.ts` to `dist/index.js` which is then served up using Qode.
 
@@ -137,11 +137,11 @@ const {
 
 All this does is import the necessary modules for the GUI.
 
-You can find a [list of all available modules](https://docs.nodegui.org/#/?id=modules-from-nodegui) in the project's excellent documentation. This list is steadily growing and if you ever find yourself in need of modules or functionality which hasn't yet been implemented, you can [open an issue in the NodeGUI repo](https://github.com/nodegui/nodegui/issues) to ask if/when it might be added.
+You can find a [list of all available modules](https://docs.nodegui.org/docs/api/manual/synopsis) in the project's excellent documentation. This list is steadily growing and if you ever find yourself in need of modules or functionality which hasn't yet been implemented, you can [open an issue in the NodeGUI repo](https://github.com/nodegui/nodegui/issues) to ask if/when it might be added.
 
 ### Creating a Window and Adding a Layout
 
-The following lines create a main application window and display it. Every widget in NodeGUI should be a child, or nested child of [QMainWindow](https://docs.nodegui.org/#/api/QMainWindow).
+The following lines create a main application window and display it. Every widget in NodeGUI should be a child, or nested child of [QMainWindow](https://docs.nodegui.org/docs/api/generated/classes/qmainwindow).
 
 ```js
 const win = new QMainWindow();
@@ -152,7 +152,7 @@ win.show();
 
 The final line is the only bit of TypeScript in the file. It compiles to `global.win = win;` in JavaScript. The purpose of this line is to prevent the garbage collection of `win`, which would otherwise see the window disappear after a few minutes.
 
-Before any widgets can be added to the main application window, it needs to have a central widget set. This is a [QWidget](https://docs.nodegui.org/#/api/QWidget) which can be used to encapsulate other widgets and provide structure. It has a similar role to that of a div in the web world.
+Before any widgets can be added to the main application window, it needs to have a central widget set. This is a [QWidget](https://docs.nodegui.org/docs/api/generated/classes/qwidget) which can be used to encapsulate other widgets and provide structure. It has a similar role to that of a div in the web world.
 
 ```js
 const centralWidget = new QWidget();
@@ -160,7 +160,7 @@ const centralWidget = new QWidget();
 win.setCentralWidget(centralWidget);
 ```
 
-One of my favourite features of NodeGUI is that it has full support for flexbox layout. To add this to the main application window, the [FlexLayout](https://docs.nodegui.org/#/api/FlexLayout) module is used.
+One of my favourite features of NodeGUI is that it has full support for flexbox layout. To add this to the main application window, the [FlexLayout](https://docs.nodegui.org/docs/api/generated/classes/flexlayout) module is used.
 
 ```js
 const rootLayout = new FlexLayout();
@@ -181,7 +181,7 @@ label.setText("Hello");
 rootLayout.addWidget(label);
 ````
 
-Nothing too exciting happening here. A [QLabel widget](https://docs.nodegui.org/#/api/QLabel) is created and the text "Hello" is added to it. So that the widget will display in the app, it must be added to the FlexLayout mentioned above.
+Nothing too exciting happening here. A [QLabel widget](https://docs.nodegui.org/docs/api/generated/classes/qlabel) is created and the text "Hello" is added to it. So that the widget will display in the app, it must be added to the FlexLayout mentioned above.
 
 The second widget is slightly more interesting. It's mostly the same as the first, but the `setInlineStyle` method is used to apply some styling.
 
@@ -195,7 +195,7 @@ label2.setInlineStyle(`
 rootLayout.addWidget(label2);
 ```
 
-The [setStyleSheet method](https://docs.nodegui.org/#/api/NodeWidget?id=widgetstylesheet) can also be used to style widgets. For this to work, the widgets need to be assigned an object name using the [setObjectName method](https://docs.nodegui.org/#/api/NodeWidget?id=widgetsetobjectnameobjectname). Object names are similar to IDs in the web world and allow widgets to be targeted with style rules.
+The [setStyleSheet method](https://docs.nodegui.org/docs/api/generated/classes/nodewidget#setstylesheet) can also be used to style widgets. For this to work, the widgets need to be assigned an object name using the [setObjectName method](https://docs.nodegui.org/docs/api/generated/classes/nodewidget#setobjectname). Object names are similar to IDs in the web world and allow widgets to be targeted with style rules.
 
 ```js
 centralWidget.setObjectName("myroot");
@@ -362,7 +362,7 @@ If at this point you run the app using `npm run start`, you should see:
 
 ![App displaying password generation options](https://res.cloudinary.com/hibbard/image/upload/v1569332843/node-gui/node-gui-04.png)
 
-Next, let's add the widget to display the generated password. We'll use a [QPlainTextEdit](https://docs.nodegui.org/#/api/QPlainTextEdit) widget for the purpose. Let's start by requiring it:
+Next, let's add the widget to display the generated password. We'll use a [QPlainTextEdit](https://docs.nodegui.org/docs/api/generated/classes/qplaintextedit) widget for the purpose. Let's start by requiring it:
 
 ```js
 const {
@@ -404,7 +404,7 @@ Now when you run the app, you should see this:
 
 ![App with widget to display generated password](https://res.cloudinary.com/hibbard/image/upload/v1569333478/node-gui/node-gui-05.png)
 
-Finally, let's add the buttons to generate the password and copy it to the clipboard. For this we'll use the [QPushButton](https://docs.nodegui.org/#/api/QPushButton) widget.
+Finally, let's add the buttons to generate the password and copy it to the clipboard. For this we'll use the [QPushButton](https://docs.nodegui.org/docs/api/generated/classes/qpushbutton) widget.
 
 ```js
 const {
@@ -482,7 +482,7 @@ generateButton.addEventListener(QPushButtonEvents.clicked, () => {
 });
 ```
 
-As you can see, we can access the value of the `QLineEdit` using its [text](https://docs.nodegui.org/#/api/QLineEdit?id=lineedittext) method and the value of the `QCheckbox` with its [isChecked](https://docs.nodegui.org/#/api/QCheckBox?id=checkboxischecked) method. We can also use the `QPlainTextEdit`'s [setPlainText](https://docs.nodegui.org/#/api/QPlainTextEdit?id=plaintexteditsetplaintexttext) method to set this widget's value.
+As you can see, we can access the value of the `QLineEdit` using its [text](https://docs.nodegui.org/docs/api/generated/classes/qlineedit#text) method and the value of the `QCheckbox` with its [isChecked](https://docs.nodegui.org/docs/api/generated/classes/qcheckbox#ischecked) method. We can also use the `QPlainTextEdit`'s [setPlainText](https://docs.nodegui.org/docs/api/generated/classes/qplaintextedit#setplaintext) method to set this widget's value.
 
 Now when you run the app, enter something and press _Generate_, you should see the values you enter logged to the password field.
 
@@ -573,7 +573,7 @@ At this point we have a functioning password generator.
 
 ## Adding Copy to Clipboard
 
-To round things off, let's implement the copy to clipboard functionality. This can be done in a couple of lines of code using the [QApplication](https://docs.nodegui.org/#/api/QApplication) module, which manages the application’s control flow and main settings.
+To round things off, let's implement the copy to clipboard functionality. This can be done in a couple of lines of code using the [QApplication](https://docs.nodegui.org/docs/api/generated/classes/qapplication) module, which manages the application’s control flow and main settings.
 
 ```js
 const {
@@ -638,7 +638,7 @@ If you run into any issues while using NodeGUI, the issues section is a good pla
 
 ### Contributing
 
-The NodeGUI project is actively looking for contributors and there are several ways you can help. You can find the [contributor's guide](https://docs.nodegui.org/#/development/README) here.
+The NodeGUI project is actively looking for contributors and there are several ways you can help. You can find the [contributor's guide](https://github.com/nodegui/nodegui/tree/master/website/docs/development) here.
 
 If you have a basic C++ knowledge, you can help by adding unexported methods to existing widgets — [this issue](https://github.com/nodegui/nodegui/issues/36) and [this PR](https://github.com/nodegui/nodegui/pull/39) can be used as a guide
 
