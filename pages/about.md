@@ -5,13 +5,13 @@ permalink: /about/
 sidebar_link: true
 ---
 
-Hi, I'm Jim, a web developer living in the sunny north of Germany.
+Hi, I'm Jim, a web developer living in sunny Germany.
 
 ![James Hibbard](https://hibbard.eu/jim.jpg)
 
 Currently I work for SitePoint as editor of their [JavaScript hubs](https://www.sitepoint.com/learning-hubs/) and technical editor for various books (e.g. [JavaScript: Novice to Ninja](https://www.sitepoint.com/premium/books/javascript-novice-to-ninja-2nd-edition) and [Jump Start Vue.js](https://www.sitepoint.com/premium/books/jump-start-vue-js/)).
 
-I also work for the local university as a network admin / web dev where I spend a fair bit of my time working on Rails apps.
+I also work as a network admin and freelance web dev, where I spend a fair bit of my time working on Rails apps.
 
 Here are some of the places you can find me online:
 

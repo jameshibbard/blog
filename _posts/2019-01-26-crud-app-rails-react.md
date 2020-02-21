@@ -16,7 +16,7 @@ twitter:
 
 Most web applications need to persist data in one form or other. When working with a server-side language, this is normally a straightforward task. However when you add a front-end JavaScript framework to the mix, things start to get a bit trickier.
 
-In this tutorial I am going to demonstrate how to build a JSON API using Ruby on Rails and then code a fully-functional React frontend to interact with the API. The app we'll be building is an event manager, which will let you create and manage a list of academic events (I work for a university).
+In this tutorial I am going to demonstrate how to build a JSON API using Ruby on Rails and then code a fully-functional React frontend to interact with the API. The app we'll be building is an event manager, which will let you create and manage a list of academic events.
 
 The app will showcase basic CRUD functionality and will add a couple of extra features (such as a datepicker and search). To integrate the React frontend with the Rails backend, I'll be using the Webpacker gem, which will ship as the default JavaScript bundler for Rails 6.
 

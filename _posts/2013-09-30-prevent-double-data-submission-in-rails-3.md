@@ -11,7 +11,7 @@ excerpt_separator: <!--more-->
 comments: false
 ---
 
-I was recently working on an application, that lets people from all over the world apply for a programme at the university I work at.
+I was recently working on an application, that lets people from all over the world apply for a programme at the place I work.
 
 The application works well and does what it should, but we were seeing quite a lot of double submissions, that is to say, the same person applying multiple times in short succession.
 
