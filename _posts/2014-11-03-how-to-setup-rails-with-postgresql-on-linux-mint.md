@@ -12,7 +12,7 @@ old-comments: how-to-setup-rails-with-postgresql-on-linux-mint.html
 comments: false
 ---
 
-Rails is database agnostic, meaning that it can talk to different databases without more than configuration changes. Here's how to install [PostgreSQL](http://www.postgresql.org/ "PostgreSQL homepage") on Linux Mint 16 and configure it for use with Rails.
+Rails is database agnostic, meaning that it can talk to different databases with little more than a couple of configuration changes. Here's how to install [PostgreSQL](http://www.postgresql.org/ "PostgreSQL homepage") on Linux Mint 16 and configure it for use with Rails.
 
 <!--more-->
 
@@ -55,6 +55,23 @@ You can verify the success of this command thus:
 
 ```sh
 SELECT rolname FROM pg_roles;
+```
+
+Sample output:
+
+```
+postgres=# SELECT rolname FROM pg_roles;
+       rolname
+----------------------
+ postgres
+ pg_monitor
+ pg_read_all_settings
+ pg_read_all_stats
+ pg_stat_scan_tables
+ pg_signal_backend
+ jim
+(7 rows)
+
 ```
 
 ## A Simple Rails App
