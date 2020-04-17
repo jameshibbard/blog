@@ -182,25 +182,13 @@ sudo apt-get install openssh-server
 
 The next step is to give our Ubuntu server an IP address on our local network. To do this, power off the virtual machine using `sudo poweroff` or _Machine_ > _ACPI Shutdown_.
 
-Then, in VirtualBox Manager, click on the _Tools_ tab, making sure it is highlighted green and three dots appear on the right-hand side of the tab. Click on these three dots, then select _Network_.
-
-You should now see a _Create_ icon in the panel on the right. Click _Create_ to create a new virtual network. Make sure that its DCHP server is enabled (the column on the far right).
-
-![Host Network Manager](https://res.cloudinary.com/hibbard/image/upload/v1576058634/ubuntu-18.0.4-virtualbox-6.0.14/virtualbox-manager-9.png)
-
-Next, click on the _Ubuntu Server_ tab, below the _Tools_ tab. Click on the _Settings_ cog that appears on the right, then _Network_. Set _Adapter 1_ > _Attached to_ to "Bridged Adapter".
+Then, in VirtualBox Manager, click on the _Network_ panel on the right. Change the setting _Adapter 1_ > _Attached to_ to "Bridged Adapter" and click _OK_.
 
 ![VirtualBox Manager - Network Adapter 1](https://res.cloudinary.com/hibbard/image/upload/v1576058634/ubuntu-18.0.4-virtualbox-6.0.14/virtualbox-manager-10.png)
 
-After that, select _Adapter 2_, enable it and set its _Attached to_ property to "Host-only adapter". Then click _OK_ to dismiss the dialogue.
-
-![VirtualBox Manager - Network Adapter 2](https://res.cloudinary.com/hibbard/image/upload/v1576058634/ubuntu-18.0.4-virtualbox-6.0.14/virtualbox-manager-11.png)
-
-Finally, go to _File_ > _Preferences_ > _Network_. Under _NAT Networks_ if you don't see a NAT network click on the _+_ icon to add one. Then click _OK_ to dismiss the dialogue.
-
-![VirtualBox Manager - NAT Networks](https://res.cloudinary.com/hibbard/image/upload/v1576058634/ubuntu-18.0.4-virtualbox-6.0.14/virtualbox-manager-12.png)
-
 Start up your virtual machine, then enter `ifconfig` (in the guest) and note the IP address assigned to your main network adapter. In my case this was `192.168.178.66`.
+
+**Note:** it is also possible to stick with the original NAT interface and SSH into the guest using port forwarding. You can read more about that [here](https://stackoverflow.com/a/10532299/1136887). You can find information on all of the VBox network settings [in this comprehensive guide](https://www.nakivo.com/blog/virtualbox-network-setting-guide/).
 
 ## Starting and Stopping VirtualBox in Headless Mode
 
