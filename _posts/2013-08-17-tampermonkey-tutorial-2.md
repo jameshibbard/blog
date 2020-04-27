@@ -75,7 +75,7 @@ So, let's fill those details out. They're all fairly self explanatory, except pe
 // @match http://hibbard.eu/*
 // @copyright 2013+, hibbard.eu
 // @require http://code.jquery.com/jquery-latest.js
-// ==/UserScript==</pre>
+// ==/UserScript==
 ```
 
 As you can see, I have specified that this script should run when I visit any page beginning with `http://hibbard.eu/`. Obviously, anyone following this tutorial will need to adapt this path accordingly.

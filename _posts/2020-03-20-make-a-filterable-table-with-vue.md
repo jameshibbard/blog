@@ -31,7 +31,6 @@ This is the skeleton HTML we will be using.
   <head>
     <meta charset="UTF-8" />
     <title>Filterable table</title>
-    <style></style>
   </head>
   <body>
     <div id="app"></div>
