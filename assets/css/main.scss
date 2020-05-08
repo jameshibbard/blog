@@ -188,3 +188,16 @@ aside.onebox {
 .highlight{ padding: 0.5rem; }
 code { color: #515151; }
 pre code { color: #fff; font-family: Consolas, Monaco, Andale Mono, Ubuntu Mono, monospace; }
+
+.highlight, .highlight pre {
+  background-color: #242c3f !important;
+  box-shadow: 2px 4px 25px rgba(36,44,63,0.5);
+}
+
+// Alters sidebar color
+body {
+  background-attachment: fixed;
+  background-color: #242c3f;
+  // background-image: linear-gradient(to bottom, #323232, #0e0e0e);
+  background-image: none;
+}
