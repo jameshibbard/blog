@@ -9,13 +9,51 @@ Here's a selection of some of my more popular SitePoint articles. If you'd like 
 
 <aside class="onebox">
   <header>
+    <a href="https://www.sitepoint.com/bundle-static-site-webpack/">SitePoint – 22 October 2020</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/bundle-static-site-webpack/">How to Bundle a Simple Static Site Using Webpack </a></h3>
+    <p>You don't need to be working on a fancy, large-scale project to use Webpack. Here's how you can use it to bundle a simple static site.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
+    <a href="https://www.sitepoint.com/date-fns-javascript-date-library/">SitePoint – 17 September 2020</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/date-fns-javascript-date-library/">Learn date-fns: A Lightweight JavaScript Date Library</a></h3>
+    <p>Learn date-fns, a functional date library, and a lightweight alternative to Moment.js. With 130+ functions for all occasions, it's like Lodash for dates.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
+    <a href="https://www.sitepoint.com/jquery-settimeout-function-examples/">SitePoint – 6 July 2020</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/jquery-settimeout-function-examples/">jQuery setTimeout() Function Examples</a></h3>
+    <p>Learn how the JavaScript function setTimeout() works, how it can be used with other libraries like jQuery, and see examples and links to further reading.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
+    <a href="https://www.sitepoint.com/build-a-chrome-extension/">SitePoint – 7 April 2020</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/build-a-chrome-extension/">Build a Chrome Extension to Streamline Your Workflow</a></h3>
+    <p>Here's how to build a Chrome extension to add additional functionality to WordPress, and an introduction to SitePoint's SP-Tools editor extension.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
     <a href="https://www.sitepoint.com/zsh-commands-plugins-aliases-tools/">SitePoint – 3 March 2020</a>
   </header>
   <article class="onebox-body">
     <h3>
-      <a href="https://www.sitepoint.com/zsh-commands-plugins-aliases-tools/">
-        75 Zsh Commands, Plugins, Aliases and Tools
-      </a>
+      <a href="https://www.sitepoint.com/zsh-commands-plugins-aliases-tools/">75 Zsh Commands, Plugins, Aliases and Tools</a>
     </h3>
     <p>75 Zsh commands, plugins, aliases and tools that will save you keystrokes and make you more productive in your day-to-day work.</p>
   </article>
@@ -130,26 +168,6 @@ Here's a selection of some of my more popular SitePoint articles. If you'd like 
   <article class="onebox-body">
     <h3><a href="https://www.sitepoint.com/a-beginners-guide-to-pug/">A Beginner’s Guide to Pug, the HTML Preprocessor</a></h3>
     <p>A walk through Pug's basic syntax, some practical examples, and advanced features by building a simple Node/Express project.</p>
-  </article>
-</aside>
-
-<aside class="onebox">
-  <header>
-    <a href="https://www.sitepoint.com/jquery-settimeout-function-examples/">SitePoint – 26 November 2018</a>
-  </header>
-  <article class="onebox-body">
-    <h3><a href="https://www.sitepoint.com/jquery-settimeout-function-examples/">jQuery setTimeout() Function Examples </a></h3>
-    <p>How the jQuery and JavaScript function setTimeout() works, with some cool examples and links to further reading</p>
-  </article>
-</aside>
-
-<aside class="onebox">
-  <header>
-    <a href="https://www.sitepoint.com/bundle-static-site-webpack/">SitePoint – 24 July 2017</a>
-  </header>
-  <article class="onebox-body">
-    <h3><a href="https://www.sitepoint.com/bundle-static-site-webpack/">How to Bundle a Simple Static Site Using Webpack </a></h3>
-    <p>You don't need to be working on a fancy, large-scale project to use Webpack. Here's how you can use it to bundle a simple static site.</p>
   </article>
 </aside>
 
