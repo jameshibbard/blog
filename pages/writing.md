@@ -9,10 +9,30 @@ Here's a selection of some of my more popular SitePoint articles. If you'd like 
 
 <aside class="onebox">
   <header>
+    <a href="https://www.sitepoint.com/bundle-static-site-webpack/">SitePoint – 13 April 2021</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/most-popular-frontend-frameworks-compared/">The 5 Most Popular Front-end Frameworks Compared</a></h3>
+    <p>Learn about the features, the pros and the cons of the five most popular JavaScript front-end frameworks, and how to choose the one that's right for you.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
+    <a href="https://www.sitepoint.com/bundle-static-site-webpack/">SitePoint – 8 April 2021</a>
+  </header>
+  <article class="onebox-body">
+    <h3><a href="https://www.sitepoint.com/loop-through-json-response-javascript/">Quick Tip: How to Loop Through a JSON Response in JavaScript</a></h3>
+    <p>Data fetched from remote servers is often in JSON format. Learn how to use JavaScript to parse the server's JSON response to access the data you require.</p>
+  </article>
+</aside>
+
+<aside class="onebox">
+  <header>
     <a href="https://www.sitepoint.com/bundle-static-site-webpack/">SitePoint – 22 October 2020</a>
   </header>
   <article class="onebox-body">
-    <h3><a href="https://www.sitepoint.com/bundle-static-site-webpack/">How to Bundle a Simple Static Site Using Webpack </a></h3>
+    <h3><a href="https://www.sitepoint.com/bundle-static-site-webpack/">How to Bundle a Simple Static Site Using Webpack</a></h3>
     <p>You don't need to be working on a fancy, large-scale project to use Webpack. Here's how you can use it to bundle a simple static site.</p>
   </article>
 </aside>
