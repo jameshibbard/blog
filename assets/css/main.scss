@@ -215,3 +215,35 @@ body {
 .shadow {
   box-shadow: 2px 4px 25px rgba(36, 44, 63, 0.5);
 }
+
+// Outdated content warning
+.outdated-content {
+  background: #ffff99;
+  border: 1px solid #242c3f;
+  border-radius: 3px;
+  margin: 32px 0px 16px;
+  padding: 16px 10px 16px 5px;
+
+  p {
+    margin:  0 0 0 15px;
+    padding:  0;
+  }
+
+  img {
+    display: inline;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: 4px;
+    width: 22px;
+
+    @media only screen and (max-width: 783px) {
+      width: 18px;
+      top: 3px;
+    }
+  }
+}
+
+// Shadow on images for newer posts
+.image_shadow img {
+  box-shadow: 2px 4px 25px rgba(36, 44, 63, 0.5);
+}

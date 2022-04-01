@@ -1,8 +1,11 @@
 ---
-title: How to Create a Simple CRUD App with Rails and React
+title: How to Create a Simple CRUD App with Rails and React (Class-based Version)
 layout: post
-permalink: /rails-react-crud-app/
-excerpt_separator: <!--more-->
+permalink: /rails-react-crud-app-classes/
+excerpt: "
+  <p>A tutorial explaining how to create a Rails API then, using the Webpacker gem, build a React front-end to consume it.</p>
+  <p>This is an older post which uses React classes.</p>
+"
 tags:
   - rails
   - react
@@ -12,7 +15,18 @@ twitter:
   title: "How to Create a Simple CRUD App with Rails and React"
   description: "In this post I'll show you how to create a Rails API then, using the Webpacker gem, build a React front-end to consume it."
   image_url: https://res.cloudinary.com/hibbard/image/upload/f_auto,w_800/v1549023369/stock/events.jpg
+canonical:
+  url: 'https://hibbard.eu/rails-react-crud-app/'
 ---
+
+<div class="outdated-content">
+  <p>
+    <img src="https://res.cloudinary.com/hibbard/image/upload/v1646913760/icons/exclamation-mark.png" />
+    This content is outdated and has been left here for reference purposes.
+    If you are building a CRUD app with React today, you should probably follow
+    <a href="https://hibbard.eu/rails-react-crud-app/">this updated tutorial</a> instead.
+  </p>
+</div>
 
 Most web applications need to persist data in one form or other. When working with a server-side language, this is normally a straightforward task. However when you add a front-end JavaScript framework to the mix, things start to get a bit trickier.
 
@@ -20,12 +34,10 @@ In this tutorial I am going to demonstrate how to build a JSON API using Ruby on
 
 The app will showcase basic CRUD functionality and will add a couple of extra features (such as a datepicker and search). To integrate the React frontend with the Rails backend, I'll be using the Webpacker gem, which will ship as the default JavaScript bundler for Rails 6.
 
-<!--more-->
-
 This is what the finished app will look like.
 
 ![Event Manager - Flash message](https://res.cloudinary.com/hibbard/image/upload/v1549014887/event-manager/event-manager-06.png)
-You can find the [complete code for the tutorial on GitHub](https://github.com/jameshibbard/react-rails-crud-app).
+You can find the [complete code for the tutorial on GitHub](https://github.com/jameshibbard/react-rails-crud-app/tree/classes).
 
 ## Prerequisites
 
@@ -73,7 +85,7 @@ rake db:create
 rake db:migrate
 ```
 
-Finally, seed the model with some test data. You can do this by creating a `db/seeds/events.json` file and adding the contents from the [corresponding file in the project repo](https://github.com/jameshibbard/react-rails-crud-app/blob/master/db/seeds/events.json).
+Finally, seed the model with some test data. You can do this by creating a `db/seeds/events.json` file and adding the contents from the [corresponding file in the project repo](https://github.com/jameshibbard/react-rails-crud-app/blob/classes/db/seeds/events.json).
 
 Then in `db/seeds.rb`, add:
 

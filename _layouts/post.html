@@ -8,7 +8,7 @@ layout: default
 <div class="content">
   {% include post-meta.html post=page %}
 
-  <div class="post-body">
+  <div class="post-body {% if page.image_shadow %}image_shadow{% endif %}">
     {{ content }}
     {% include post-tags.html post=page %}
   </div>

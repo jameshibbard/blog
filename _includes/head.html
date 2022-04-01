@@ -41,5 +41,10 @@
     <meta name="description" content="{{ page.twitter.description }}">
   {% endif %}
 
+  <!-- Canonical Tag -->
+  {% if page.canonical %}
+    <link rel="canonical" href="{{ page.canonical.url }}" />
+  {% endif %}
+
   {% include custom-head.html %}
 </head>
