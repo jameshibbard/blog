@@ -1,5 +1,5 @@
 ---
-title: How to Create a Simple CRUD App with Rails and React
+title: How to Create a CRUD App with Rails and React
 layout: post
 permalink: /rails-react-crud-app/
 excerpt_separator: <!--more-->
