@@ -662,6 +662,8 @@ The data fetching happens within a `try... catch` block, so that we can handle a
 
 Once the data fetching has completed, we set the `isLoading` variable to `false`.
 
+> If you want to check the loading effect, add a `sleep 5` to the `index` method in the `EventsController`.
+
 The last thing we do inside the hook is to invoke the  `fetchData` function. We need a separate function here, as we cannot mark the callback function we pass to the `useEffect` hook as being `async`.
 
 Finally, we return some JSX. This consists of the `<Header>` component we will declare shortly, then either an error message, a loading message, or the `<EventList>` component to which we pass a list of events. The `<Editor>` component works out which of these to render based on the value of the `isError` and `isLoading` variables we declared previously.
@@ -1253,6 +1255,13 @@ input.search {
   margin: 15px 2px;
   padding: 4px 0 6px 6px;
 }
+
+.loading {
+  height: calc(100vh - 60px);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
 ```
 
 > Please note that these are all of the styles we will need in the app. Listing them all in one go is intended to keep the article a tad shorter.
@@ -1274,7 +1283,7 @@ return (
     <div className="grid">
       {isError && <p>Something went wrong. Check the console.</p>}
       {isLoading ? (
-        <p>Loading...</p>
+        <p className='loading'>Loading...</p>
       ) : (
         <>
           <EventList events={events} />
@@ -1334,7 +1343,7 @@ Depending on the bundler you are using, some extra configuration is necessary.
 
 #### esbuild
 
-If you are using esbuild, you need to delete `app/assets/stylesheets.css` from the project, as otherwise the next time you start the Rails server you will see the following warning:
+If you are using esbuild, you need to delete `app/assets/stylesheets/application.css` from the project, as otherwise the next time you start the Rails server you will see the following warning:
 
 ```shell
 ActionView::Template::Error (Multiple files with the same output path cannot be linked (“application.css”)
@@ -2825,3 +2834,4 @@ And that's everything. Well done if you've made it up to here. You should now ha
 If you're looking to continue honing your skills, there are a several further steps you can consider. You could, for example [deploy the app to Heroku](https://devcenter.heroku.com/categories/deployment), add authentication, or port the backend to use Node.
 
 Either way, I'd be glad to hear your comments in the discussion below, and don't forget, [the full source code for this tutorial is available on GitHub](https://github.com/jameshibbard/react-rails-crud-app).
+
