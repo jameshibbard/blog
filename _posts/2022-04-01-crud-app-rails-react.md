@@ -9,7 +9,7 @@ tags:
   - api
 twitter:
   title: "How to Create a Simple CRUD App with Rails and React"
-  description: "In this post I'll show you how to create a Rails API then, using ESBuild, construct a React front-end to consume it."
+  description: "In this post I'll show you how to create a Rails API then, using esbuild, construct a React front-end to consume it."
   image_url: https://res.cloudinary.com/hibbard/image/upload/f_auto,w_800/v1549023369/stock/events.jpg
 canonical:
   url: 'https://hibbard.eu/rails-react-crud-app/'
