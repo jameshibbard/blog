@@ -295,12 +295,6 @@ module.exports = webpackConfig;
 Install the [react-refresh](https://www.npmjs.com/package/react-refresh) package, as well as [@pmmmwh/react-refresh-webpack-plugin](https://www.npmjs.com/package/@pmmmwh/react-refresh-webpack-plugin):
 
 ```shell
-yarn add --dev react-refresh git+https://github.com/pmmmwh/react-refresh-webpack-plugin
-```
-
-Note that we are pulling `react-refresh-webpack-plugin` directly from [GitHub](https://github.com/pmmmwh/react-refresh-webpack-plugin) . This is because the current release (0.5.4) [throws an error](https://github.com/pmmmwh/react-refresh-webpack-plugin/issues/565) with the latest version of React. This should be fixed in the next release, in which case you only need to run:
-
-```shell
 yarn add --dev react-refresh @pmmmwh/react-refresh-webpack-plugin
 ```
 
