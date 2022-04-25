@@ -275,7 +275,7 @@ First off, hop into `config/webpacker.yml` set `hmr` is set to `true`.
 Then alter `config/webpack/webpack.config.js` like so:
 
 ```js
-const { webpackConfig, inliningCss, merge } = require('shakapacker');
+const { webpackConfig, inliningCss } = require('shakapacker');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
