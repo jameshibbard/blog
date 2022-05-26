@@ -164,6 +164,8 @@ Then run the following commands:
 yarn add react react-dom @babel/preset-react
 ```
 
+> **Note:** there is a [bug in the latest version of Shakapacker](https://github.com/shakacode/shakapacker/issues/123) which results in it not being able to find the Webpacker configuration file when you run `rails webpacker:install`. If you encounter this, you can pin Shakapacker to its previous version like so: `bundle add shakapacker --version "6.2.1" --strict`.
+
 Update `package.json` to add the `@babel/preset-react`:
 
 ```json
