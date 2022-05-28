@@ -29,6 +29,8 @@ This is what the finished product will look like.
 ![Event Manager - Flash message](https://res.cloudinary.com/hibbard/image/upload/v1648453623/event-manager-hooks/01-the-finished-app.png)
 You can find the [complete code for the tutorial on GitHub](https://github.com/jameshibbard/react-rails-crud-app).
 
+This post is also available in [Japanese](https://techracho.bpsinc.jp/hachi8833/2022_05_26/118202).
+
 ## Prerequisites
 
 To follow along, you'll need both Ruby and Node installed on your system. For Ruby you can either go [here](https://www.ruby-lang.org/en/downloads/) and download the official binaries for your system, or use a version manager such as [rbenv](https://github.com/rbenv/rbenv).
