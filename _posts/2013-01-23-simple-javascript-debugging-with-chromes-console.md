@@ -12,7 +12,7 @@ old-comments: simple-javascript-debugging-with-chromes-console.html
 comments: false
 ---
 
-All to often of late, I have seen people having trouble trying to debug some JavaScript or other.
+All too often of late, I have seen people having trouble trying to debug some JavaScript or other.
 
 Some were stumped by the white screen of death which confronted them the minute their script failed silently, whilst others were trying to debug their program using an alert dialogue box (a truly tedious process).
 
@@ -24,7 +24,7 @@ The console is part of  the development tools which are (to some extent) integra
 
 In this short tutorial I am going to focus on using [Chrome's Dev Tools](https://developers.google.com/chrome-developer-tools/ "Chrome Developer Tools"), but there's no reason you couldn't follow along using [Safari's WebKit Inspector](http://developer.apple.com/library/safari/#documentation/AppleApplications/Conceptual/Safari_Developer_Guide/1Introduction/Introduction.html "About Safari Developer Tools"), [Firebug for Firefox](http://getfirebug.com/ "Firebug's download page"), [Internet Explorer's Developer Tools](http://msdn.microsoft.com/en-us/library/dd565628(v=vs.85).aspx "Discovering Windows Internet Explorer Developer Tools") or [Opera's Dragonfly](http://www.opera.com/dragonfly/documentation/ "Opera Dragonfly documentation").
 
-So, assuming you're in Chrome, open up a web page and hit the <kbd>F12</kbd>kbd> key. You should see a panel open up at the bottom of your screen, like so:
+So, assuming you're in Chrome, open up a web page and hit the <kbd>F12</kbd> key. You should see a panel open up at the bottom of your screen, like so:
 
 ![When you first hit F12 in Chrome](https://res.cloudinary.com/hibbard/image/upload/v1528982959/chrome_dev_tools_1.png)
 
