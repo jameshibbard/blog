@@ -30,3 +30,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # Performance-booster for watching directories on Windows
 gem 'wdm', '~> 0.1.1' if Gem.win_platform?
+
+# WEBrick is no longer a bundled gem in Ruby 3.0
+# https://stackoverflow.com/a/66013726/1136887
+gem 'webrick'
