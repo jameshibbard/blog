@@ -34,3 +34,7 @@ gem 'wdm', '~> 0.1.1' if Gem.win_platform?
 # WEBrick is no longer a bundled gem in Ruby 3.0
 # https://stackoverflow.com/a/66013726/1136887
 gem 'webrick'
+
+# Ensures compatibility with Ruby 3.3.0 to fix Jekyll logger issue
+# https://github.com/apache/arrow-site/issues/447
+gem 'logger'
