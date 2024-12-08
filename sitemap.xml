@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://hibbard.eu/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/about/</loc>
+  <lastmod>2024-04-11T17:37:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/writing/</loc>
+  <lastmod>2024-04-11T17:37:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/tags.html</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/search.html</loc>
+  <lastmod>2024-04-11T17:37:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/export-thunderbird-accounts-mobile-esr-release/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/rails-react-crud-app/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/prevent-xsession-errors-file-growing-too-large/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/tweet-javascript-github-action/</loc>
+  <lastmod>2024-11-16T16:23:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/authentication-with-devise-and-cancancan-in-rails/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/filterable-table-vuejs/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/install-ubuntu-virtual-box/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/node-gui/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/flash-android-custom-rom/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/rails-react-crud-app-classes/</loc>
+  <lastmod>2024-11-16T16:23:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page2/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/ajax-beginners-tutorial/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/use-ajax-to-filter-mysql-results-set/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/simple-ajax-unit-converter/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/sliding-panels-with-jquery/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/update-passenger/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-set-up-an-apache-virtual-host-on-linux-mint/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/nested-attributes-and-updating-without-a-password-in-devise/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-run-a-batch-file-as-admin-in-windows-7/</loc>
+  <lastmod>2024-11-16T16:23:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/revert-to-yahoo-mail-classic/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-clear-your-browsers-cache/</loc>
+  <lastmod>2024-11-16T16:23:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/simple-javascript-debugging-with-chromes-console/</loc>
+  <lastmod>2024-11-16T16:23:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/making-lightbox-work-in-ie9/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-burn-a-cd-dvd-in-windows-7/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/using-regular-expressions-in-dreamweaver/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/using-cookies-with-jquery-to-make-a-simple-style-switcher/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/making-a-jquery-plugin-101/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/using-virtual-attributes-in-rails-3/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-insert-the-current-date-into-a-datetime-field-in-a-mysql-database-using-php/</loc>
+  <lastmod>2024-11-16T16:23:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-detect-a-touch-device-using-javascript/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/dom-selection-without-jquery/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/moving-mail-to-local-folders-in-thunderbird/</loc>
+  <lastmod>2024-11-16T16:23:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/programmatically-triggering-events-in-jquery/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/prevent-double-data-submission-in-rails-3/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/tampermonkey-tutorial-2/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/inline-error-messages-with-rails-3/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-tell-if-a-form-has-been-submitted-using-php/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/display-your-wordpress-contact-form-in-a-lightbox/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/simple-form-validation-in-php/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/fxruby-how-to-capture-close-on-the-main-window/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-restore-a-previously-deleted-file-from-a-git-repository/</loc>
+  <lastmod>2024-11-16T16:23:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/overlaying-lightbox-with-the-html5-canvas-element/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-embed-video-in-your-wordpress-site-using-html5/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-center-an-html-element-using-javascript/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-make-a-simple-visitor-counter-using-php/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/display-a-random-thumbnail-image-next-to-gallery-excerpt-in-wordpress/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-validate-that-two-time-ranges-dont-overlap-in-javascript/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-create-a-custom-filter-selector-with-jquery/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/display-ui-blocking-overlay-on-page-load/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/promises-with-jquery/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/tooltips-using-jquery-atooltip-and-regular-expressions/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/tampermonkey-tutorial/</loc>
+  <lastmod>2024-11-16T16:23:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-install-rbenv-on-linux-mint-17-1/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-setup-rails-with-postgresql-on-linux-mint/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/resurrecting-a-rails-2-x-app/</loc>
+  <lastmod>2024-11-16T16:23:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/making-rsync-behave-like-synctoy/</loc>
+  <lastmod>2024-11-16T16:23:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-install-rbenv-on-linux-mint-16/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/php-headerlocation-not-working-in-mamp/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/trouble-installing-mysql2-gem-on-windows-8-with-ruby-2/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/setting-a-fallback-font-in-prawn/</loc>
+  <lastmod>2024-11-16T16:23:18+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/inspect-object-in-php/</loc>
+  <lastmod>2024-11-16T16:23:22+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/custom-routes-with-resources-in-rails-3/</loc>
+  <lastmod>2024-11-16T16:23:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-manage-multiple-versions-of-ruby-on-windows/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/ignore-invalid-byte-sequence-in-utf-8-error-in-ruby/</loc>
+  <lastmod>2024-11-16T16:23:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/how-to-pass-parameters-to-your-wordpress-templates/</loc>
+  <lastmod>2024-11-16T16:23:25+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/making-a-very-simple-wordpress-theme-for-a-static-site/</loc>
+  <lastmod>2024-11-16T16:23:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page3/</loc>
+  <lastmod>2024-11-16T16:23:15+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/ajax-filter/</loc>
+  <lastmod>2018-06-25T12:54:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/ajax-filter/3/</loc>
+  <lastmod>2018-06-25T13:26:49+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/ajax-filter/4/</loc>
+  <lastmod>2018-06-25T13:28:59+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/sliding-panels/4/</loc>
+  <lastmod>2018-06-15T17:59:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/sliding-panels/1/</loc>
+  <lastmod>2018-06-15T17:59:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/sliding-panels/2/</loc>
+  <lastmod>2018-06-15T17:59:28+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/sliding-panels/3/</loc>
+  <lastmod>2018-06-15T17:59:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/php-form-validation/1/</loc>
+  <lastmod>2024-12-08T16:15:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/php-form-validation/2/</loc>
+  <lastmod>2024-12-08T16:15:20+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/lightbox-canvas/2/</loc>
+  <lastmod>2018-06-13T14:41:55+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/demos/countdown-sound/</loc>
+  <lastmod>2018-06-18T11:43:43+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page4/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page5/</loc>
+  <lastmod>2024-11-16T16:23:24+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page6/</loc>
+  <lastmod>2024-11-16T16:23:23+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hibbard.eu/page7/</loc>
+  <lastmod>2024-11-16T16:23:19+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+
+
+</urlset>
