@@ -252,3 +252,15 @@ body {
 p:has(img:only-child) + h2 {
   margin-top: 40px;
 }
+
+.callout {
+  border-left: 4px solid #0078D7;
+  background: #f9f9f9;
+  padding: 10px 15px;
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+article.post-body .originally-posted-elsewhere {
+  display: none;
+}
