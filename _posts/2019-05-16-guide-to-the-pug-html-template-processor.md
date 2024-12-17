@@ -894,3 +894,5 @@ Well done if you’ve made it this far! We’ve covered a lot of ground in this 
 There’s still a lot more that Pug can do. I’d encourage you to check out its [excellent documentation](https://pugjs.org/api/getting-started.html) and to just start using it in your projects. You can also use it with several modern JS frameworks, such as [React](https://github.com/pugjs/babel-plugin-transform-react-pu) or [Vue](https://vue-loader.vuejs.org/guide/pre-processors.html#pug), and it has even been [ported to several other languages](https://github.com/pugjs/pug#ports-in-other-languages).
 
 If you’re looking for a challenge, why not try extending the employee directory to add the missing CRUD functionality. And if you get stuck with the syntax, don’t forget that [help is always at hand](https://html-to-pug.com/).
+
+Otherwise, if you have any remarks or questions, I'd love to hear them in the comments below.
