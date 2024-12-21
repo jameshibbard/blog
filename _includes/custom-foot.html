@@ -2,3 +2,15 @@
 
 <!-- Matomo JavaScript disabled -->
 <noscript><p><img src="//hibbard.eu/analytics/piwik.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+
+<script>
+  document.querySelectorAll('.summary').forEach((summary) => {
+  const toggle = summary.querySelector('.summary-toggle');
+  const content = summary.querySelector('.summary-content');
+
+  toggle.addEventListener('click', () => {
+    content.classList.toggle('is-visible');
+    toggle.textContent = content.classList.contains('is-visible') ? 'Hide this...' : 'Show me how...';
+  });
+});
+</script>

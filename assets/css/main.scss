@@ -264,3 +264,55 @@ p:has(img:only-child) + h2 {
 article.post-body .originally-posted-elsewhere {
   display: none;
 }
+
+// Reimplementation of a <details> element because Jekyll struggles with parsing Markdown inside custom HTML structures.
+.summary {
+  margin-bottom: 20px;
+}
+
+.summary-content {
+  display: none;
+  padding: 10px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+}
+
+.summary-content h2 {
+  margin-top: 0;
+}
+
+.summary-content.is-visible {
+  display: block;
+}
+
+.summary-toggle {
+  box-shadow: none !important;
+  transition: none !important;
+  background-color: #f0f0f0;
+  color: inherit;
+
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  border: none;
+  background-color: #f0f0f0;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 15px;
+  color: #515151;
+  transition: background-color 0.4s ease;
+}
+
+.summary-toggle:hover,
+.summary-toggle:focus,
+.summary-toggle:active {
+  background-color: #f0f0f0;
+  color: inherit !important;
+}
+
+.summary-toggle:hover {
+  transition: none !important;
+  background-color: #eaeaea;
+}
