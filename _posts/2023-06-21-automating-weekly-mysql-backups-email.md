@@ -193,6 +193,8 @@ To use Gmail with Postfix, you must generate an _app-specific password_. This re
 - At the bottom of the page, select _App Passwords_.
 - Create a new password and note it down for the next step.
 
+> If you don't see the _App Passwords_ option, you can also try the [direct link](https://myaccount.google.com/apppasswords).
+
 ### 5. Create the SASL Password File
 Create the file that will store your Gmail credentials:
 
