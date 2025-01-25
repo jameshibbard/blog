@@ -88,7 +88,7 @@ _onTimeout() {
 
 This method is called when the timeout expires, and as seen here, it destroys the `WorkspaceOsd` object. This aligns with the error message about accessing an already disposed object.
 
-Searching the file revealed that `_onTimeout()`` is invoked in the `display()` method via this line:
+Searching the file revealed that `_onTimeout()` is invoked in the `display()` method via this line:
 
 ```js
 this._timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, DISPLAY_TIMEOUT, this._onTimeout.bind(this));
@@ -108,7 +108,7 @@ var WorkspaceOsd = GObject.registerClass(
 );
 ```
 
-You can edit the file in an editor of your choice. I used Sublime text, but in the worst case, nano would also suffice.
+You can edit the file in an editor of your choice. I used Sublime Text, but in the worst case, nano would also suffice.
 
 ```bash
 sudo nano /usr/share/cinnamon/js/ui/workspaceOsd.js
@@ -118,7 +118,7 @@ sudo nano /usr/share/cinnamon/js/ui/workspaceOsd.js
 
 Once the change had been made I needed to restart Cinnamon.
 
-You can do this by pressing <kbd>Alt</kbd> + <kbd>F"</kbd>, then typing "r" (for restart ) into the _Run a Command_ dialog box that appears.
+You can do this by pressing <kbd>Alt</kbd> + <kbd>F2</kbd>, then typing "r" (for restart ) into the _Run a Command_ dialog box that appears.
 
 Alternatively, you can type the following into the terminal:
 
@@ -127,6 +127,5 @@ cinnamon --replace &
 ```
 
 Or log out and log back in again.
-
 
 I hope this helps someone. If you have any questions, you can hit me up in the comments below and I will do my best to help.
