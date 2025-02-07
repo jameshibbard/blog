@@ -92,6 +92,3 @@ DEPENDENCIES
   logger
   tzinfo-data
   webrick
-
-BUNDLED WITH
-   2.5.3
