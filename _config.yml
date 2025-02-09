@@ -55,3 +55,10 @@ github:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+exclude:
+  - assets/images/
+  - assets/misc/
+  - blog.sublime-project
+  - blog.sublime-workspace
+
