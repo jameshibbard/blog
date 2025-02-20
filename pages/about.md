@@ -9,10 +9,9 @@ Hi, I'm Jim, a web developer living in sunny Germany.
 
 ![James Hibbard](https://hibbard.eu/jim.jpg)
 
+I work as a network admin and freelance web developer, where I spend a fair bit of my time working on Rails apps.
 
-Currently I'm employed as an editor for SitePoint, where I am responsible for commissioning and editing web-related content for [their blog](https://www.sitepoint.com/blog/). I have also served as technical editor for several SitePoint books, such as [Learn to Code with JavaScript](https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/) and [Jump Start Web Performance](https://www.sitepoint.com/premium/books/jump-start-web-performance)
-
-In addition to this, I work as a network admin and freelance web developer, where I spend a fair bit of my time working on Rails apps.
+Previously, I was an editor at SitePoint, where I commissioned and edited web-related content for [their blog](https://www.sitepoint.com/blog/). I also wrote various email newsletters and served as a technical editor for several SitePoint books, including [Learn to Code with JavaScript](https://www.sitepoint.com/premium/books/learn-to-code-with-javascript/) and [Jump Start Web Performance](https://www.sitepoint.com/premium/books/jump-start-web-performance).
 
 Here are some of the places you can find me online:
 
