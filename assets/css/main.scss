@@ -216,6 +216,11 @@ body {
   box-shadow: 2px 4px 25px rgba(36, 44, 63, 0.5);
 }
 
+// Override box shadow for individual images when `image_shadow: true` in front matter
+.no-shadow {
+  box-shadow: none !important;
+}
+
 // Outdated content warning
 .outdated-content {
   background: #ffff99;
