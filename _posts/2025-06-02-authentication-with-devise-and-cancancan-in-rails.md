@@ -54,7 +54,7 @@ To follow along you will need Ruby and Rails installed on your machine.
 
 For Ruby the exact steps you follow will depend upon your system. If in doubt you can consult the [official Ruby install guide](https://www.ruby-lang.org/en/documentation/installation "Installing Ruby").
 
-If you are using a Unix-like system, I recommend [rbenv](https://github.com/rbenv/rbenv " Manage your app's Ruby environment"). rbenv is a Ruby version manager and is extremely useful for switching between multiple Ruby versions on the same machine. With rbenv installed, pulling in the latest version of Ruby is as simple as:
+If you are using a Unix-like system, I recommend [rbenv](https://github.com/rbenv/rbenv "Manage your app's Ruby environment"). rbenv is a Ruby version manager and is extremely useful for switching between multiple Ruby versions on the same machine. With rbenv installed, pulling in the latest version of Ruby is as simple as:
 
 ```bash
 rbenv install 3.4.4
@@ -81,13 +81,13 @@ Rails 8.0.2
 
 ## Generating the Project Files
 
-Let’s start by creating a new Rails app. We will skip using the [Jbuilder gem](https://github.com/rails/jbuilder "Jbuilder: generate JSON objects with a Builder-style DSL"), as we won’t be rendering any JSON responses.
+Let's start by creating a new Rails app. We will skip using the [Jbuilder gem](https://github.com/rails/jbuilder "Jbuilder: generate JSON objects with a Builder-style DSL"), as we won't be rendering any JSON responses.
 
 ```bash
 rails new store --skip-jbuilder
 ```
 
-Rails 8 uses [Import Maps](https://github.com/rails/importmap-rails "Use ESM with importmap to manage modern JavaScript in Rails without transpiling or bundling.") by default, which means you don’t need Node.js or any JavaScript bundler to get started.
+Rails 8 uses [Import Maps](https://github.com/rails/importmap-rails "Use ESM with importmap to manage modern JavaScript in Rails without transpiling or bundling.") by default, which means you don't need Node.js or any JavaScript bundler to get started.
 
 Once the project is created, change into the `store` directory and optionally perform an initial git commit:
 
@@ -180,11 +180,11 @@ Now let's turn our attention to Devise and the authentication logic.
 
 ### Why Not Use Built-in Rails Authentication?
 
-Rails 8 ships with a built-in authentication generator that gives developers full control over the auth stack. It’s ideal if you prefer to manage your own logic and don’t mind writing some boilerplate.
+Rails 8 ships with a built-in authentication generator that gives developers full control over the auth stack. It's ideal if you prefer to manage your own logic and don't mind writing some boilerplate.
 
 That said, Devise remains the better choice for most real-world apps. It provides a robust, out-of-the-box solution with minimal setup, and comes packed with features like user confirmation, session timeouts, and OAuth support—saving time and reducing complexity.
 
-If you’d like to explore the built-in option, see the official guide: [Securing Your App with the Default Authentication Generator (Rails 8 Unpacked)](https://www.youtube.com/watch?v=4q1RWZABhKE "Learn how to add authentication to your Rails 8 app with the new built-in Authentication Generator")
+If you'd like to explore the built-in option, see the official guide: [Securing Your App with the Default Authentication Generator (Rails 8 Unpacked)](https://www.youtube.com/watch?v=4q1RWZABhKE "Learn how to add authentication to your Rails 8 app with the new built-in Authentication Generator")
 
 ### Installing And Configuring Devise
 
@@ -277,9 +277,9 @@ With the following:
 </body>
 ```
 
-The new layout includes a top navigation bar showing the current user’s authentication status. If the user is signed in, it displays their email address along with links to edit their profile or sign out. If not signed in, it shows links to sign up or log in. Flash messages are displayed directly beneath the header.
+The new layout includes a top navigation bar showing the current user's authentication status. If the user is signed in, it displays their email address along with links to edit their profile or sign out. If not signed in, it shows links to sign up or log in. Flash messages are displayed directly beneath the header.
 
-We've also added an admin navigation bar with links to `Items`, `Users`, and `Roles`. This is primarily for convenience during development, allowing quick access across key resources. It’s currently visible to all users, but we’ll later restrict it to admins only.
+We've also added an admin navigation bar with links to `Items`, `Users`, and `Roles`. This is primarily for convenience during development, allowing quick access across key resources. It's currently visible to all users, but we'll later restrict it to admins only.
 
 Next, add the following line to the top of `ItemsController`, `RolesController` and `UsersController`:
 
@@ -383,7 +383,7 @@ Once you have restarted the server, you will be able to (kinda) manage users at 
 
 ## Customizing Devise
 
-If you click on the "sign up" or "edit profile" links, you'll notice that the user's name attribute is missing. It would be nice for users to specify their names when registering, so let’s fix that.
+If you click on the "sign up" or "edit profile" links, you'll notice that the user's name attribute is missing. It would be nice for users to specify their names when registering, so let's fix that.
 
 Devise comes with many built-in views. To customize these pages, we must transfer the Devise view files into our project so we can modify them. Luckily, Devise has a generator to do just that:
 
@@ -455,9 +455,9 @@ class User < ApplicationRecord
   end
 end
 ```
-This ensures that any new user is automatically given the “Regular” role if no other role is set.
+This ensures that any new user is automatically given the "Regular" role if no other role is set.
 
-Notice how we are assigning the role in a `before_validation` callback. One might consider using `before_create` or `before_save` instead, but since Rails 5, `belongs_to` enforces presence by default, and those callbacks fire after validations have run — too late to meet the requirement. Using `optional: true` would suppress the error, but would contradict the application’s intent, as every user should have a role.
+Notice how we are assigning the role in a `before_validation` callback. One might consider using `before_create` or `before_save` instead, but since Rails 5, `belongs_to` enforces presence by default, and those callbacks fire after validations have run — too late to meet the requirement. Using `optional: true` would suppress the error, but would contradict the application's intent, as every user should have a role.
 
 Take a moment at this point to start up the app again and make sure that everything is working. You should be able to specify your name when signing up as a new user.
 
