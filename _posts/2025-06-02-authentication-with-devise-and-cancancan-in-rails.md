@@ -100,10 +100,12 @@ git commit -m "Initial commit"
 Now generate the basic scaffolding:
 
 ```bash
-rails g scaffold user name:string role:belongs_to
 rails g scaffold role name:string description:string
+rails g scaffold user name:string role:belongs_to
 rails g scaffold item name:string description:text 'price:decimal{5,2}', user:belongs_to
 ```
+
+> This order ensures foreign keys are created after their referenced tables — required when using MySQL.
 
 Here `price:decimal{5,2}` sets up a decimal field with a precision of 5 and a scale of 2. This allows values from -999.99 to 999.99.
 
