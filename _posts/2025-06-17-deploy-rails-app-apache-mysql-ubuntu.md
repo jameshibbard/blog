@@ -924,7 +924,7 @@ config.assume_ssl = false
 config.force_ssl = false
 ```
 
-This tells Rails not to expect HTTPS and not to mark cookies as `secure`, allowing login to function normally over HTTP.
+This tells Rails not to expect HTTPS and not to mark cookies as `secure`, allowing login to function normally over HTTP. You can read more about these options [here](https://guides.rubyonrails.org/configuring.html#config-assume-ssl) and [here](https://guides.rubyonrails.org/configuring.html#config-force-ssl).
 
 Of course, in a real production environment, SSL **should** be enabled, and these settings should remain `true` to protect user data. We're only disabling them here to get things working locally. If your app is already running over HTTPS, this won't be an issue. But if you're testing on something like VirtualBox without SSL, this workaround helps you move forward.
 
