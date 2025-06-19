@@ -46,6 +46,7 @@ Makefile
 _config.dev.yml
 .vscode
 *.gem
+.htaccess
 
 #Images
 assets/images
