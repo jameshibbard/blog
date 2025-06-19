@@ -1,9 +1,10 @@
 ---
-title: Deploying a Rails App with Apache and MySQL on Ubuntu Server
+title: Deploying a Rails App with Apache & MySQL on Ubuntu Server
 layout: post
-permalink: /deploy-rails-app-apache-mysql-ubuntu/
+permalink: /deploy-rails-app-capistrano-apache-mysql-ubuntu/
 tags:
   - cancancan
+  - capistrano
   - deploymet
   - devise
   - rails
@@ -14,8 +15,8 @@ tags:
   - virtualbox
 excerpt_separator: <!--more-->
 twitter:
-  title: "Deploying a Rails App with Apache, MySQL & Capistrano"
-  description: "A step-by-step guide to deploying a Rails app on Ubuntu with Apache, MySQL and Capistrano."
+  title: "Deploying a Rails App with Capistrano, Apache & MySQL on Ubuntu Server"
+  description: "Get your Rails app running on Ubuntu with this hands-on guide using Capistrano, Apache, and MySQL."
   image_url: https://res.cloudinary.com/hibbard/image/upload/f_auto,q_auto,c_limit,w_800/v1750187465/deploy-rails-capistrano/deploy-capistrano-header.jpg
 image_shadow: true
 ---
