@@ -9,6 +9,7 @@ tags:
   - devise
   - rails
   - ruby
+  - secrets
   - servers
   - ssh
   - ubuntu
