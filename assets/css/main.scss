@@ -266,7 +266,8 @@ p:has(img:only-child) + h2 {
   font-size: 18px;
 }
 
-article.post-body .originally-posted-elsewhere {
+article.post-body .originally-posted-elsewhere,
+article.post-body .header-image {
   display: none;
 }
 
